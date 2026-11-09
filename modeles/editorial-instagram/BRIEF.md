@@ -3,9 +3,9 @@
 Tu écris le CONTENU d'un carrousel de 10 à 12 slides pour Benjamin Chaminade (Bob), conférencier et consultant français en management, RH et innovation. Public : DRH, comités de direction et managers français. Tu ne fabriques ni images ni photos et tu ne publies rien : tu livres un fichier JSON et une fiche.
 
 ## Modèle à reproduire (validé par Bob le 8/11/2026)
-Exemple complet : /home/claude/carrousel-solitude/carrousel.html (rendu : /home/claude/carrousel-solitude/planche.png, ouvre-le avec Read).
+Exemple complet dans le dépôt trendemic/carrousels : publies/instagram-modele-generation-z-solitude/source.html (rendu : les slide-*.png du même dossier, ouvre-les avec Read).
 Structure : une couverture photo avec un titre en deux temps (l1 blanc, l2 jaune, 3 à 8 mots chacun, tout tient en 4 lignes maximum), puis une alternance de slides « stat » (un grand chiffre puis sa phrase), « texte » (un ou deux paragraphes), « couleur » ou « sombre » (une phrase et une chute en jaune), et une seule slide « photo » (photo de groupe en haut, une question et sa réponse en bas). Le récit va du constat chiffré vers l'angle de Bob, puis une question au lecteur. Le générateur ajoute seul la slide « Suivez-moi » et la slide finale (champ « fin »).
-Format exact du JSON : lis la docstring de /home/claude/gabarit/generer.py. Mets entre 7 et 9 slides dans « slides ».
+Format exact du JSON : lis la docstring de modeles/editorial-instagram/generer.py. Mets entre 7 et 9 slides dans « slides ».
 
 ## Règles de contenu (non négociables)
 - Chaque chiffre vient d'une source primaire nommée (institut, auteur ou revue) dont tu as OUVERT et LU la page avant de l'écrire. Pas d'agrégateur, pas de reprise média, jamais de chiffre de mémoire, jamais d'URL inventée. Sources françaises et européennes d'abord ; une donnée américaine est signalée dans le champ « source » de la slide (« donnée américaine »). Une enquête de cabinet ou d'employeur est signalée comme telle. Données les plus récentes disponibles (2025 ou 2026). Gallup est exclu.
