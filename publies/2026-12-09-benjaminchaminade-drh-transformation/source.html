@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Kompot;src:url(kompotsans-webfont.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Mulish;src:url(mulish-regular-webfont.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Mulish;src:url(mulish-bold-webfont.woff2) format('woff2');font-weight:700}
+:root{--violet:#5353bc;--orange:#ff6a00;--yellow:#f7cf0b;--cyan:#55dbde;--ink:#222226;--paper:#fbf9f5;--muted:#6b6b72;--night:#16161c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Mulish,sans-serif}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden}
+.kicker{font-family:Mulish;font-weight:700;font-size:30px;letter-spacing:9px;text-transform:uppercase}
+em{font-style:normal}
+b{font-weight:700}
+b.nl{display:block}
+.nw{white-space:nowrap}
+p{text-wrap:pretty}
+p.bal{text-wrap:balance}
+.src{position:absolute;left:96px;right:96px;bottom:150px;font-size:22px;line-height:1.4;color:var(--muted)}
+/* couverture */
+.cover{background:#000}
+.cover img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(51,51,51,.45) 0%,rgba(51,51,51,.35) 30%,rgba(51,51,51,.75) 55%,rgba(51,51,51,.97) 100%)}
+.cover .pill{position:absolute;top:64px;right:72px;background:#fff;border-radius:60px;padding:22px 34px}
+.cover .pill img{display:block;width:330px}
+.cover .logo{position:absolute;top:70px;right:80px;width:330px}
+.cover .txt{position:absolute;left:84px;right:84px;bottom:150px;color:#fff}
+.cover .kicker{color:var(--yellow);margin-bottom:34px}
+.cover h1{font-family:Kompot;font-weight:400;font-size:104px;line-height:1.02;letter-spacing:1px}
+.cover h1 span{color:var(--yellow)}
+.dots{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px}
+.dots i{width:13px;height:13px;border-radius:50%;background:rgba(255,255,255,.4)}
+.dots i.on{background:#fff}
+/* pages blanches */
+.white{background:var(--paper);color:var(--ink)}
+.white .top{position:absolute;top:96px;left:96px;right:96px;padding-bottom:34px;border-bottom:3px solid var(--ink);display:flex;justify-content:space-between;align-items:center}
+.white .top img{height:44px}
+.white .body{position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%)}
+.white p{font-size:52px;line-height:1.28;margin-bottom:46px}
+.white p.big{font-size:66px;line-height:1.2}
+.white .swipe{position:absolute;right:96px;bottom:84px;font-weight:700;font-size:26px;letter-spacing:6px}
+.white .stat{font-family:Kompot;font-size:150px;line-height:1;color:var(--violet);display:block;margin-bottom:18px}
+/* pages photo + bandeau sombre */
+.split{background:var(--night);color:#fff}
+.split img.ph{position:absolute;top:0;left:0;width:1080px;height:760px;object-fit:cover}
+.split .band{position:absolute;top:760px;left:0;right:0;bottom:0;padding:84px 96px}
+.split .kicker{color:var(--cyan);margin-bottom:42px}
+.split p{font-size:62px;line-height:1.22}
+.split p em{color:var(--yellow);font-weight:700;display:block}
+/* pages pleines couleur */
+.solid{background:var(--violet);color:#fff}
+.solid .wrap{position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%)}
+.solid .kicker{color:var(--yellow);margin-bottom:46px}
+.solid p{font-size:72px;line-height:1.18}
+.solid p em{color:var(--yellow);font-weight:700;display:block}
+.solid p em.in{display:inline}
+.solid .logo{position:absolute;top:96px;left:96px;width:300px}
+.solid.dark{background:var(--night)}
+.solid .btn{display:inline-block;margin-top:70px;background:#fff;color:var(--ink);font-weight:700;font-size:30px;letter-spacing:6px;padding:28px 56px;border-radius:14px;box-shadow:8px 8px 0 var(--orange)}
+.center{text-align:center}
+/* page finale */
+.end{background:var(--paper);color:var(--ink)}
+.end .logo{position:absolute;top:96px;left:96px;width:360px}
+.end .wrap{position:absolute;left:96px;right:96px;top:300px}
+.end h2{font-family:Kompot;font-weight:400;font-size:108px;line-height:1.02;margin:34px 0 46px}
+.end h2 span{color:var(--violet)}
+.end p{font-size:44px;line-height:1.3;margin-bottom:60px}
+.end .cta{display:block;background:var(--ink);color:#fff;border-radius:22px;padding:40px 48px;font-weight:700;font-size:36px;letter-spacing:2px;box-shadow:10px 10px 0 var(--orange);margin-bottom:24px}
+.end .url{font-size:28px;letter-spacing:4px;font-weight:700;color:var(--muted);margin-bottom:60px}
+.end .box{border:4px solid var(--ink);border-radius:22px;padding:34px 44px;font-size:40px;line-height:1.3;box-shadow:10px 10px 0 var(--yellow)}
+</style>
+
+</head>
+<body>
+<section class="page cover">
+<img class="bg" src="photos/cover.png" alt="">
+<div class="shade"></div>
+<div class="pill"><img src="logo-benjamin-chaminade.svg" alt="Benjamin Chaminade"></div>
+<div class="txt"><div class="kicker">Transformation</div>
+<h1>Le DRH siège à la table.<br><span>Qui pilote la transformation&nbsp;?</span></h1></div>
+<div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<section class="page white"><div class="top"><span class="kicker">Les chiffres</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">91&nbsp;%</span>des professionnels RH des entreprises de plus de 250 salariés placent leur DRH au comité exécutif, au comité de direction ou dans l’équipe dirigeante. <b class="nl">Tous effectifs confondus, la part atteint 69&nbsp;%.</b></p></div><div class="src">Éditions Tissot et PayFit, Baromètre 2026&nbsp;: les RH au quotidien (avril 2026, 628 répondants, enquête d’éditeurs auprès de leurs clients et prospects)</div><div class="swipe">LA SUITE →</div></section>
+
+<section class="page white"><div class="top"><span class="kicker">La priorité</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">84&nbsp;%</span>des DRH interrogés font de «&nbsp;soutenir et accompagner la transformation de l’entreprise&nbsp;» leur première priorité. <b class="nl">Un an plus tôt, la part s’établissait à 81&nbsp;%.</b></p></div><div class="src">WTW, ABV Group et RH&amp;M, Baromètre des DRH 2025 (mars 2025, 121 DRH, enquête de cabinets)</div></section>
+
+<section class="page solid"><div class="wrap"><div class="kicker">Le piège</div><p>Siéger au comité de direction et accompagner les chantiers des autres donne une place à la table. <em>Le budget et les arbitrages restent dans d’autres mains.</em></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Le DRH du projet</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>Je l’appelle le DRH du projet. Il siège au comité de pilotage et prend en charge le volet humain (formation, communication et accords sociaux).</p><p>Le portefeuille, le budget et les arbitrages entre directions reviennent à un autre profil. <b class="nl">Il participe à la transformation sans en diriger une partie.</b></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Ailleurs en Europe</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">54&nbsp;%</span>des DRH de 132 grandes organisations belges citent le leadership transformationnel parmi les trois compétences les plus critiques du poste. <b class="nl">Dans 89&nbsp;% de ces organisations, le DRH siège déjà à la direction.</b></p></div><div class="src">Vlerick Business School et Hudson, HR Barometer 2026 (avril 2026, 132 DRH, données belges)</div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Un cas documenté</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>Chez M6, le DRH du groupe prend la direction de la transformation en juin 2025, et un successeur reprend la DRH.</p><p>En octobre 2026, le groupe confie la suite à sa directrice adjointe de la transformation, passée par le BCG. <b class="nl">Le DRH y côtoie des profils formés au pilotage de programmes.</b></p></div><div class="src">Communiqués du Groupe M6 (juin 2025 et octobre 2026), cités dans l’article</div></section>
+
+<section class="page solid dark"><div class="wrap"><div class="kicker">Mon conseil</div><p>Demandez un chantier entier, avec son budget et ses indicateurs, bien avant le titre. <em>Le titre arrive avec la preuve de pilotage.</em></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Par où commencer</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>Le premier chantier se trouve dans votre propre fonction&nbsp;: changer une règle d’évaluation, de rémunération ou de recrutement.</p><p><b class="nl">Un DRH qui n’a pas transformé sa fonction convaincra difficilement les autres directions.</b></p></div></section>
+
+<section class="page split"><img class="ph" src="photos/groupe.png" alt=""><div class="band"><div class="kicker">Et vous&nbsp;?</div><p>Quel chantier dirigez-vous de bout en bout cette année&nbsp;? <em>Comptez seulement ceux dont vous tenez le budget.</em></p></div></section>
+
+<section class="page solid dark center"><div class="wrap"><div class="kicker">@benjaminchaminade</div>
+<p>Suivez-moi pour d’autres idées sur <em class="in">le management</em> et <em class="in">l’avenir du travail.</em></p>
+<span class="btn">LA SUITE →</span></div></section>
+
+<section class="page end"><img class="logo" src="logo-benjamin-chaminade.svg" alt="Benjamin Chaminade">
+<div class="wrap"><div class="kicker">L’article complet</div>
+<h2>Le titre suit <span>le chantier.</span></h2>
+<p>Les trois chemins vers la direction de la transformation et un autodiagnostic en huit questions.</p>
+<span class="cta">LIRE L’ARTICLE →</span>
+<div class="url">BENJAMINCHAMINADE.COM/DRH-CHIEF-TRANSFORMATION-OFFICER</div></div></section>
+</body>
+</html>

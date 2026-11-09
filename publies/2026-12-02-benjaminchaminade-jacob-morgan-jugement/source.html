@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<style>
+@font-face{font-family:Kompot;src:url(kompotsans-webfont.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Mulish;src:url(mulish-regular-webfont.woff2) format('woff2');font-weight:400}
+@font-face{font-family:Mulish;src:url(mulish-bold-webfont.woff2) format('woff2');font-weight:700}
+:root{--violet:#5353bc;--orange:#ff6a00;--yellow:#f7cf0b;--cyan:#55dbde;--ink:#222226;--paper:#fbf9f5;--muted:#6b6b72;--night:#16161c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Mulish,sans-serif}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden}
+.kicker{font-family:Mulish;font-weight:700;font-size:30px;letter-spacing:9px;text-transform:uppercase}
+em{font-style:normal}
+b{font-weight:700}
+b.nl{display:block}
+.nw{white-space:nowrap}
+p{text-wrap:pretty}
+p.bal{text-wrap:balance}
+.src{position:absolute;left:96px;right:96px;bottom:150px;font-size:22px;line-height:1.4;color:var(--muted)}
+/* couverture */
+.cover{background:#000}
+.cover img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.cover .shade{position:absolute;inset:0;background:linear-gradient(180deg,rgba(51,51,51,.45) 0%,rgba(51,51,51,.35) 30%,rgba(51,51,51,.75) 55%,rgba(51,51,51,.97) 100%)}
+.cover .pill{position:absolute;top:64px;right:72px;background:#fff;border-radius:60px;padding:22px 34px}
+.cover .pill img{display:block;width:330px}
+.cover .logo{position:absolute;top:70px;right:80px;width:330px}
+.cover .txt{position:absolute;left:84px;right:84px;bottom:150px;color:#fff}
+.cover .kicker{color:var(--yellow);margin-bottom:34px}
+.cover h1{font-family:Kompot;font-weight:400;font-size:104px;line-height:1.02;letter-spacing:1px}
+.cover h1 span{color:var(--yellow)}
+.dots{position:absolute;bottom:70px;left:0;right:0;display:flex;justify-content:center;gap:14px}
+.dots i{width:13px;height:13px;border-radius:50%;background:rgba(255,255,255,.4)}
+.dots i.on{background:#fff}
+/* pages blanches */
+.white{background:var(--paper);color:var(--ink)}
+.white .top{position:absolute;top:96px;left:96px;right:96px;padding-bottom:34px;border-bottom:3px solid var(--ink);display:flex;justify-content:space-between;align-items:center}
+.white .top img{height:44px}
+.white .body{position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%)}
+.white p{font-size:52px;line-height:1.28;margin-bottom:46px}
+.white p.big{font-size:66px;line-height:1.2}
+.white .swipe{position:absolute;right:96px;bottom:84px;font-weight:700;font-size:26px;letter-spacing:6px}
+.white .stat{font-family:Kompot;font-size:150px;line-height:1;color:var(--violet);display:block;margin-bottom:18px}
+/* pages photo + bandeau sombre */
+.split{background:var(--night);color:#fff}
+.split img.ph{position:absolute;top:0;left:0;width:1080px;height:760px;object-fit:cover}
+.split .band{position:absolute;top:760px;left:0;right:0;bottom:0;padding:84px 96px}
+.split .kicker{color:var(--cyan);margin-bottom:42px}
+.split p{font-size:62px;line-height:1.22}
+.split p em{color:var(--yellow);font-weight:700;display:block}
+/* pages pleines couleur */
+.solid{background:var(--violet);color:#fff}
+.solid .wrap{position:absolute;left:96px;right:96px;top:50%;transform:translateY(-50%)}
+.solid .kicker{color:var(--yellow);margin-bottom:46px}
+.solid p{font-size:72px;line-height:1.18}
+.solid p em{color:var(--yellow);font-weight:700;display:block}
+.solid p em.in{display:inline}
+.solid .logo{position:absolute;top:96px;left:96px;width:300px}
+.solid.dark{background:var(--night)}
+.solid .btn{display:inline-block;margin-top:70px;background:#fff;color:var(--ink);font-weight:700;font-size:30px;letter-spacing:6px;padding:28px 56px;border-radius:14px;box-shadow:8px 8px 0 var(--orange)}
+.center{text-align:center}
+/* page finale */
+.end{background:var(--paper);color:var(--ink)}
+.end .logo{position:absolute;top:96px;left:96px;width:360px}
+.end .wrap{position:absolute;left:96px;right:96px;top:300px}
+.end h2{font-family:Kompot;font-weight:400;font-size:108px;line-height:1.02;margin:34px 0 46px}
+.end h2 span{color:var(--violet)}
+.end p{font-size:44px;line-height:1.3;margin-bottom:60px}
+.end .cta{display:block;background:var(--ink);color:#fff;border-radius:22px;padding:40px 48px;font-weight:700;font-size:36px;letter-spacing:2px;box-shadow:10px 10px 0 var(--orange);margin-bottom:24px}
+.end .url{font-size:28px;letter-spacing:4px;font-weight:700;color:var(--muted);margin-bottom:60px}
+.end .box{border:4px solid var(--ink);border-radius:22px;padding:34px 44px;font-size:40px;line-height:1.3;box-shadow:10px 10px 0 var(--yellow)}
+</style>
+
+</head>
+<body>
+<section class="page cover">
+<img class="bg" src="photos/cover.png" alt="">
+<div class="shade"></div>
+<div class="pill"><img src="logo-benjamin-chaminade.svg" alt="Benjamin Chaminade"></div>
+<div class="txt"><div class="kicker">IA et management</div>
+<h1>Vos équipes se connectent à l'IA.<br><span>Qui mesure leur jugement&nbsp;?</span></h1></div>
+<div class="dots"><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+</section>
+
+<section class="page white"><div class="top"><span class="kicker">Les chiffres</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">18&nbsp;%</span>des entreprises de 10 salariés ou plus implantées en France utilisent au moins une technologie d'intelligence artificielle en 2025. <b class="nl">Elles étaient 6&nbsp;% en 2023.</b></p></div><div class="src">Insee Première n° 2120, «&nbsp;Les TIC dans les entreprises en 2025&nbsp;», juillet 2026</div><div class="swipe">LA SUITE →</div></section>
+
+<section class="page solid"><div class="wrap"><div class="kicker">Et dans les grandes entreprises&nbsp;?</div><p>Au-delà de 250 salariés, l'usage de l'IA concerne <em>58&nbsp;% d'entre elles.</em></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Jacob Morgan</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>En mars 2026, le futurologue américain du travail commente le cas d'un grand cabinet de conseil qui lie les promotions à l'usage de l'IA, connexions hebdomadaires comprises.</p><p>Récompensés à la connexion, les salariés font passer par l'IA des tâches sans valeur pour afficher leur adoption. <b class="nl">Il nomme ce travers «&nbsp;théâtre d'entreprise&nbsp;».</b></p></div><div class="src">Jacob Morgan, The Future Organization, «&nbsp;Best of Q1&nbsp;2026&nbsp;», 30 mars 2026 (cas relayé par l'auteur, traduction libre)</div></section>
+
+<section class="page solid dark"><div class="wrap"><div class="kicker">Le piège</div><p>Compter les connexions récompense l'activité visible. <em>Le jugement, lui, n'apparaît dans aucun tableau de bord.</em></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">La parade</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>Jacob Morgan propose aux DRH d'exiger un «&nbsp;reçu de jugement humain&nbsp;»&nbsp;: chaque responsable indique ce qu'il a vérifié et ce qu'il a écarté dans la proposition de l'IA.</p><p>J'en ferais un rituel d'équipe&nbsp;: en réunion, chacun montre une réponse de l'IA qu'il a corrigée et la raison de sa correction. <b class="nl">Le jugement devient visible et partageable.</b></p></div><div class="src">Jacob Morgan, The Future Organization, 30 mars 2026 («&nbsp;Human Judgment Receipt&nbsp;», traduction libre)</div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Le frein</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">53&nbsp;%</span>des entreprises françaises qui utilisent l'IA se disent freinées par un manque d'expertise. <b class="nl">L'outil arrive avant la capacité de jugement.</b></p></div><div class="src">Insee Première n° 2120, juillet 2026 (entreprises de 10 salariés ou plus, données 2025)</div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Ce que veulent les salariés</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p><span class="stat">74&nbsp;%</span>des Européens jugent important d'interdire les décisions entièrement automatisées au travail. <b class="nl">Ils veulent un humain dans la boucle.</b></p></div><div class="src">Commission européenne, Eurobaromètre spécial 554, «&nbsp;Artificial Intelligence and the future of work&nbsp;», publié en février 2025 (terrain 2024)</div></section>
+
+<section class="page split"><img class="ph" src="photos/groupe.png" alt=""><div class="band"><div class="kicker">Ce que montrent les données</div><p>Que doit prouver un manager à l'ère de l'IA&nbsp;? <em>Son jugement, explicité devant l'équipe.</em></p></div></section>
+
+<section class="page white"><div class="top"><span class="kicker">Et maintenant&nbsp;?</span><img src="logo-benjamin-chaminade.svg" alt=""></div><div class="body"><p>Je préfère un manager qui écarte une réponse de l'IA et explique pourquoi à un manager qui affiche dix connexions par jour. <b class="nl">Le premier forme son équipe. Le second remplit un tableau de bord.</b></p><p>Avant d'ajouter un indicateur d'usage de l'IA à vos tableaux de bord, posez-vous une question. <b class="nl">Et chez vous, que mesurez-vous&nbsp;: les connexions ou le jugement&nbsp;?</b></p></div></section>
+
+<section class="page solid dark center"><div class="wrap"><div class="kicker">@benjaminchaminade</div>
+<p>Suivez-moi pour d’autres idées sur <em class="in">le management</em> et <em class="in">l’avenir du travail.</em></p>
+<span class="btn">LA SUITE →</span></div></section>
+
+<section class="page end"><img class="logo" src="logo-benjamin-chaminade.svg" alt="Benjamin Chaminade">
+<div class="wrap"><div class="kicker">Pour vos dirigeants</div>
+<h2>Gardez le jugement <span>en vie.</span></h2>
+<p>La conférence «&nbsp;Manager des humains à l'ère de l'IA&nbsp;» pour garder le jugement en vie quand la réponse arrive en un instant.</p>
+<span class="cta">DÉCOUVRIR LA CONFÉRENCE →</span>
+<div class="url">BENJAMINCHAMINADE.COM/INTERVENTIONS</div></div></section>
+</body>
+</html>

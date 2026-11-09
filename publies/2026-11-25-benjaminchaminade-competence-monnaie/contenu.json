@@ -1,0 +1,98 @@
+{
+  "kicker_couverture": "Compétences",
+  "titre_l1": "Une compétence est une monnaie.",
+  "titre_l2": "Sa valeur tient à la confiance.",
+  "slides": [
+    {
+      "type": "stat",
+      "kicker": "Les chiffres",
+      "stat": "43 %",
+      "texte": "des travailleurs de l’Union européenne disent avoir assez d’occasions d’utiliser leurs compétences et leurs connaissances dans leur travail.",
+      "gras": "Moins d’un actif européen sur deux a cette chance.",
+      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, faits saillants (avril 2026)"
+    },
+    {
+      "type": "texte",
+      "kicker": "La monnaie",
+      "paragraphes": [
+        {
+          "texte": "Les compétences passent pour la nouvelle monnaie des talents. Une monnaie circule quand chacun croit en sa valeur.",
+          "gras": "Un profil de compétences obéit à la même règle."
+        },
+        {
+          "texte": "Vos collaborateurs tiennent leur profil à jour quand une compétence enregistrée leur ouvre une mission, un projet ou une formation.",
+          "gras": "Sinon, le profil reste un simple formulaire."
+        }
+      ]
+    },
+    {
+      "type": "stat",
+      "kicker": "Le potentiel",
+      "stat": "30 %",
+      "texte": "des travailleurs de l’Union européenne se disent surcompétents pour leur travail actuel.",
+      "gras": "La part va de 18 % à Malte à 44 % en Roumanie.",
+      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, rapport de synthèse (avril 2026)"
+    },
+    {
+      "type": "sombre",
+      "kicker": "Mon avis",
+      "texte": "Le passage des postes aux compétences relève autant de la confiance que de la technologie.",
+      "accent": "La plateforme vient après la preuve."
+    },
+    {
+      "type": "stat",
+      "kicker": "La mobilité",
+      "stat": "58 %",
+      "texte": "des salariés qui envisagent d’évoluer d’ici deux ans préfèrent le faire dans leur entreprise actuelle.",
+      "gras": "33 % pensent plutôt changer d’entreprise.",
+      "source": "Sondage Ifop pour Avenir Actifs, baromètre de l’évolution professionnelle (juillet-août 2025, 4 810 salariés)"
+    },
+    {
+      "type": "texte",
+      "kicker": "Par où commencer",
+      "paragraphes": [
+        {
+          "texte": "Je conseille de commencer par la mobilité interne. Les personnes et les données existent déjà, et les premiers résultats apparaissent en quelques semaines.",
+          "gras": "Le recrutement vient en dernier."
+        },
+        {
+          "texte": "Publiez les missions internes en compétences plutôt qu’en intitulés de poste. Communiquez ensuite l’issue de chaque candidature, même en cas de refus."
+        }
+      ]
+    },
+    {
+      "type": "photo",
+      "kicker": "Ce que les inventaires oublient",
+      "texte": "Que consigne un profil de compétences ? Ce que la personne sait faire.",
+      "accent": "Il lui manque ce qu’elle veut faire davantage."
+    },
+    {
+      "type": "couleur",
+      "kicker": "La corvée maîtrisée",
+      "texte": "Une compétence maîtrisée et exercée sans envie ressemble trait pour trait à l’excellence sur une échelle de capacité.",
+      "accent": "Seule l’appétence fait la différence."
+    },
+    {
+      "type": "texte",
+      "kicker": "Et chez vous ?",
+      "paragraphes": [
+        {
+          "texte": "Je propose une mesure simple : le taux de promesses tenues. Il mesure la part des compétences enregistrées qui ont ouvert une mission, un projet, une formation ou une augmentation en douze mois.",
+          "gras": "Présentez-le par manager."
+        },
+        {
+          "texte": "",
+          "gras": "Dans votre entreprise, combien de compétences enregistrées ont ouvert une porte cette année ?"
+        }
+      ]
+    }
+  ],
+  "fin": {
+    "kicker": "L’article complet",
+    "h2_a": "Une compétence doit",
+    "h2_b": "mener quelque part.",
+    "texte": "L’article détaille les trois couches du modèle, l’ordre de construction et la mesure des promesses tenues.",
+    "cta": "LIRE L’ARTICLE →",
+    "url_affichee": "BENJAMINCHAMINADE.COM/SKILLS-BASED-ORGANIZATION"
+  }
+}

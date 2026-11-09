@@ -1,0 +1,99 @@
+{
+ "kicker_couverture": "IA et management",
+ "titre_l1": "Vos équipes se connectent à l'IA.",
+ "titre_l2": "Qui mesure leur jugement ?",
+ "slides": [
+  {
+   "type": "stat",
+   "kicker": "Les chiffres",
+   "stat": "18 %",
+   "texte": "des entreprises de 10 salariés ou plus implantées en France utilisent au moins une technologie d'intelligence artificielle en 2025.",
+   "gras": "Elles étaient 6 % en 2023.",
+   "source": "Insee Première n° 2120, « Les TIC dans les entreprises en 2025 », juillet 2026"
+  },
+  {
+   "type": "couleur",
+   "kicker": "Et dans les grandes entreprises ?",
+   "texte": "Au-delà de 250 salariés, l'usage de l'IA concerne",
+   "accent": "58 % d'entre elles."
+  },
+  {
+   "type": "texte",
+   "kicker": "Jacob Morgan",
+   "paragraphes": [
+    {
+     "texte": "En mars 2026, le futurologue américain du travail commente le cas d'un grand cabinet de conseil qui lie les promotions à l'usage de l'IA, connexions hebdomadaires comprises."
+    },
+    {
+     "texte": "Récompensés à la connexion, les salariés font passer par l'IA des tâches sans valeur pour afficher leur adoption.",
+     "gras": "Il nomme ce travers « théâtre d'entreprise »."
+    }
+   ],
+   "source": "Jacob Morgan, The Future Organization, « Best of Q1 2026 », 30 mars 2026 (cas relayé par l'auteur, traduction libre)"
+  },
+  {
+   "type": "sombre",
+   "kicker": "Le piège",
+   "texte": "Compter les connexions récompense l'activité visible.",
+   "accent": "Le jugement, lui, n'apparaît dans aucun tableau de bord."
+  },
+  {
+   "type": "texte",
+   "kicker": "La parade",
+   "paragraphes": [
+    {
+     "texte": "Jacob Morgan propose aux DRH d'exiger un « reçu de jugement humain » : chaque responsable indique ce qu'il a vérifié et ce qu'il a écarté dans la proposition de l'IA."
+    },
+    {
+     "texte": "J'en ferais un rituel d'équipe : en réunion, chacun montre une réponse de l'IA qu'il a corrigée et la raison de sa correction.",
+     "gras": "Le jugement devient visible et partageable."
+    }
+   ],
+   "source": "Jacob Morgan, The Future Organization, 30 mars 2026 (« Human Judgment Receipt », traduction libre)"
+  },
+  {
+   "type": "stat",
+   "kicker": "Le frein",
+   "stat": "53 %",
+   "texte": "des entreprises françaises qui utilisent l'IA se disent freinées par un manque d'expertise.",
+   "gras": "L'outil arrive avant la capacité de jugement.",
+   "source": "Insee Première n° 2120, juillet 2026 (entreprises de 10 salariés ou plus, données 2025)"
+  },
+  {
+   "type": "stat",
+   "kicker": "Ce que veulent les salariés",
+   "stat": "74 %",
+   "texte": "des Européens jugent important d'interdire les décisions entièrement automatisées au travail.",
+   "gras": "Ils veulent un humain dans la boucle.",
+   "source": "Commission européenne, Eurobaromètre spécial 554, « Artificial Intelligence and the future of work », publié en février 2025 (terrain 2024)"
+  },
+  {
+   "type": "photo",
+   "kicker": "Ce que montrent les données",
+   "texte": "Que doit prouver un manager à l'ère de l'IA ?",
+   "accent": "Son jugement, explicité devant l'équipe."
+  },
+  {
+   "type": "texte",
+   "kicker": "Et maintenant ?",
+   "paragraphes": [
+    {
+     "texte": "Je préfère un manager qui écarte une réponse de l'IA et explique pourquoi à un manager qui affiche dix connexions par jour.",
+     "gras": "Le premier forme son équipe. Le second remplit un tableau de bord."
+    },
+    {
+     "texte": "Avant d'ajouter un indicateur d'usage de l'IA à vos tableaux de bord, posez-vous une question.",
+     "gras": "Et chez vous, que mesurez-vous : les connexions ou le jugement ?"
+    }
+   ]
+  }
+ ],
+ "fin": {
+  "kicker": "Pour vos dirigeants",
+  "h2_a": "Gardez le jugement",
+  "h2_b": "en vie.",
+  "texte": "La conférence « Manager des humains à l'ère de l'IA » pour garder le jugement en vie quand la réponse arrive en un instant.",
+  "cta": "DÉCOUVRIR LA CONFÉRENCE →",
+  "url_affichee": "BENJAMINCHAMINADE.COM/INTERVENTIONS"
+ }
+}

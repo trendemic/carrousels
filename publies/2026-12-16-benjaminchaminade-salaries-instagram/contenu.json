@@ -1,0 +1,99 @@
+{
+ "kicker_couverture": "Instagram",
+ "titre_l1": "Vos salariés, stars d'Instagram.",
+ "titre_l2": "Ont-ils vraiment dit oui ?",
+ "slides": [
+  {
+   "type": "stat",
+   "kicker": "Le décor",
+   "stat": "45,2 millions",
+   "texte": "de Français de 11 ans et plus se sont rendus sur Instagram au cours du mois de juillet 2026.",
+   "gras": "Votre marque y cherche un visage.",
+   "source": "Médiamétrie, Audience Internet Global en France, juillet 2026 (publié le 25 août 2026)"
+  },
+  {
+   "type": "texte",
+   "kicker": "La tendance",
+   "paragraphes": [
+    {
+     "texte": "Repéré sur Instagram en juillet 2026, le format « becoming the influencer » remplace le créateur payé par les salariés de la marque (et leur enthousiasme forcé).",
+     "gras": "La parodie est devenue une stratégie."
+    },
+    {
+     "texte": "À Laval, une caissière de Carrefour a cumulé des millions de vues : le magasin a posté un vigile à sa caisse."
+    }
+   ],
+   "source": "SocialBee, tendances Instagram (entrée du 8 juillet 2026) ; NVO, 23 juin 2026"
+  },
+  {
+   "type": "stat",
+   "kicker": "Les entreprises",
+   "stat": "63,6 %",
+   "texte": "des entreprises européennes de 10 salariés ou plus utilisent les réseaux sociaux (2025). La France affiche la plus forte hausse depuis 2016 : +33 points.",
+   "gras": "Hôtellerie et restauration : 78 %.",
+   "source": "Eurostat, Social media, statistics on the use by enterprises, enquête 2025 (données extraites en juin 2026)"
+  },
+  {
+   "type": "couleur",
+   "kicker": "Le glissement",
+   "texte": "Je vois le salarié passer de vendeur à visage de la marque, avec son humour et sa voix.",
+   "accent": "Qui a signé pour ce rôle ?"
+  },
+  {
+   "type": "texte",
+   "kicker": "Le consentement",
+   "paragraphes": [
+    {
+     "texte": "Pour le Comité européen de la protection des données, un salarié est rarement en mesure de répondre librement à une demande de consentement de son employeur.",
+     "gras": "Son « oui » pèse peu."
+    },
+    {
+     "texte": "Le sociologue Joseph Godefroy (cité par NVO) le dit des stagiaires, des CDD et des salariés en période d'essai."
+    }
+   ],
+   "source": "EDPB, lignes directrices 5/2020 sur le consentement, § 21 ; NVO, 23 juin 2026"
+  },
+  {
+   "type": "stat",
+   "kicker": "Les plus jeunes",
+   "stat": "39,8 %",
+   "texte": "seulement des 15-24 ans en emploi ont un contrat à durée indéterminée, contre 76,2 % des 25 ans ou plus.",
+   "gras": "30,5 % sont en alternance ou en stage.",
+   "source": "Insee Première n° 2096, Une photographie du marché du travail en 2025, mars 2026"
+  },
+  {
+   "type": "photo",
+   "kicker": "La vraie question",
+   "texte": "Qui protège le salarié qui ne veut pas jouer le jeu ?",
+   "accent": "Son manager, en première ligne."
+  },
+  {
+   "type": "sombre",
+   "kicker": "Mon avis",
+   "texte": "Filmer vos équipes ? Oui, avec un droit de refus réel, une cession d'image signée et une date de fin.",
+   "accent": "Le reste relève de la pression."
+  },
+  {
+   "type": "texte",
+   "kicker": "Et chez vous ?",
+   "paragraphes": [
+    {
+     "texte": "NVO rapporte le cas d'un ingénieur filmé pendant un entretien d'embauche. Le poste n'a jamais vu le jour, et la vidéo restait en ligne deux ans plus tard."
+    },
+    {
+     "texte": "Avant le prochain tournage : qui a choisi d'apparaître, qui a pu refuser et qui retire la vidéo au départ du salarié ?",
+     "gras": "Et chez vous, qui décide du visage de la marque ?"
+    }
+   ],
+   "source": "NVO, 23 juin 2026"
+  }
+ ],
+ "fin": {
+  "kicker": "Pour vos DRH et managers",
+  "h2_a": "Votre meilleure vitrine :",
+  "h2_b": "vos équipes.",
+  "texte": "Ma conférence « L'engagement par l'expérience collaborateur » traite vos salariés comme vos premiers clients, avant et après l'embauche.",
+  "cta": "DÉCOUVRIR MES CONFÉRENCES →",
+  "url_affichee": "BENJAMINCHAMINADE.COM/INTERVENTIONS"
+ }
+}

@@ -1,0 +1,47 @@
+{
+  "kicker_couverture": "Transformation",
+  "titre_l1": "Le DRH siège à la table.",
+  "titre_l2": "Qui pilote la transformation ?",
+  "slides": [
+    {"type": "stat", "kicker": "Les chiffres", "stat": "91 %",
+     "texte": "des professionnels RH des entreprises de plus de 250 salariés placent leur DRH au comité exécutif, au comité de direction ou dans l’équipe dirigeante.",
+     "gras": "Tous effectifs confondus, la part atteint 69 %.",
+     "source": "Éditions Tissot et PayFit, Baromètre 2026 : les RH au quotidien (avril 2026, 628 répondants, enquête d’éditeurs auprès de leurs clients et prospects)"},
+    {"type": "stat", "kicker": "La priorité", "stat": "84 %",
+     "texte": "des DRH interrogés font de « soutenir et accompagner la transformation de l’entreprise » leur première priorité.",
+     "gras": "Un an plus tôt, la part s’établissait à 81 %.",
+     "source": "WTW, ABV Group et RH&M, Baromètre des DRH 2025 (mars 2025, 121 DRH, enquête de cabinets)"},
+    {"type": "couleur", "kicker": "Le piège",
+     "texte": "Siéger au comité de direction et accompagner les chantiers des autres donne une place à la table.",
+     "accent": "Le budget et les arbitrages restent dans d’autres mains."},
+    {"type": "texte", "kicker": "Le DRH du projet",
+     "paragraphes": [
+       {"texte": "Je l’appelle le DRH du projet. Il siège au comité de pilotage et prend en charge le volet humain (formation, communication et accords sociaux)."},
+       {"texte": "Le portefeuille, le budget et les arbitrages entre directions reviennent à un autre profil.", "gras": "Il participe à la transformation sans en diriger une partie."}
+     ]},
+    {"type": "stat", "kicker": "Ailleurs en Europe", "stat": "54 %",
+     "texte": "des DRH de 132 grandes organisations belges citent le leadership transformationnel parmi les trois compétences les plus critiques du poste.",
+     "gras": "Dans 89 % de ces organisations, le DRH siège déjà à la direction.",
+     "source": "Vlerick Business School et Hudson, HR Barometer 2026 (avril 2026, 132 DRH, données belges)"},
+    {"type": "texte", "kicker": "Un cas documenté",
+     "paragraphes": [
+       {"texte": "Chez M6, le DRH du groupe prend la direction de la transformation en juin 2025, et un successeur reprend la DRH."},
+       {"texte": "En octobre 2026, le groupe confie la suite à sa directrice adjointe de la transformation, passée par le BCG.", "gras": "Le DRH y côtoie des profils formés au pilotage de programmes."}
+     ],
+     "source": "Communiqués du Groupe M6 (juin 2025 et octobre 2026), cités dans l’article"},
+    {"type": "sombre", "kicker": "Mon conseil",
+     "texte": "Demandez un chantier entier, avec son budget et ses indicateurs, bien avant le titre.",
+     "accent": "Le titre arrive avec la preuve de pilotage."},
+    {"type": "texte", "kicker": "Par où commencer",
+     "paragraphes": [
+       {"texte": "Le premier chantier se trouve dans votre propre fonction : changer une règle d’évaluation, de rémunération ou de recrutement."},
+       {"texte": "", "gras": "Un DRH qui n’a pas transformé sa fonction convaincra difficilement les autres directions."}
+     ]},
+    {"type": "photo", "kicker": "Et vous ?",
+     "texte": "Quel chantier dirigez-vous de bout en bout cette année ?",
+     "accent": "Comptez seulement ceux dont vous tenez le budget."}
+  ],
+  "fin": {"kicker": "L’article complet", "h2_a": "Le titre suit", "h2_b": "le chantier.",
+          "texte": "Les trois chemins vers la direction de la transformation et un autodiagnostic en huit questions.",
+          "cta": "LIRE L’ARTICLE →", "url_affichee": "BENJAMINCHAMINADE.COM/DRH-CHIEF-TRANSFORMATION-OFFICER"}
+}
