@@ -1,0 +1,8 @@
+{"kicker_couverture":"Travail","titre_l1":"La génération Z se sent seule.","titre_l2":"Son meilleur club : le bureau.",
+"slides":[
+{"type":"stat","kicker":"Les chiffres","stat":"37 %","texte":"des moins de 25 ans se sentent seuls tous les jours ou presque, ou souvent.","gras":"La moyenne des Français s’établit à 24 %.","source":"Fondation de France, étude Solitudes 2025 (Crédoc, juillet 2025, 3 000 personnes de 15 ans et plus)"},
+{"type":"couleur","kicker":"Et après 25 ans ?","texte":"Les 25-39 ans suivent de près :","accent":"36 % se sentent seuls de façon fréquente."},
+{"type":"photo","kicker":"Ce que montrent les données","texte":"Où les jeunes Français trouvent-ils du lien ?","accent":"Chez leurs collègues."},
+{"type":"texte","kicker":"L’équipe","paragraphes":[{"texte":"Pour un jeune qui arrive en ville,\nl’équipe fait office de club,\nde bande et de premier cercle."}]}
+],
+"fin":{"kicker":"Pour vos managers","h2_a":"Une équipe se","h2_b":"fabrique.","texte":"Une conférence sur mesure.","cta":"DÉCOUVRIR MES CONFÉRENCES →","url_affichee":"BENJAMINCHAMINADE.COM/INTERVENTIONS"}}
