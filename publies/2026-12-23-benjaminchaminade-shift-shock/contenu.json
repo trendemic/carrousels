@@ -1,0 +1,98 @@
+{
+ "kicker_couverture": "Recrutement",
+ "titre_l1": "L’entretien vend\nle poste.",
+ "titre_l2": "Le premier lundi\nmontre le quotidien.",
+ "slides": [
+  {
+   "type": "stat",
+   "kicker": "Les chiffres",
+   "stat": "34 %",
+   "texte": "des cadres font état d’un écart significatif entre le poste décrit à l’embauche et la réalité du poste.",
+   "gras": "Chez les moins de 35 ans, la part atteint 51 %.",
+   "source": "Apec, Focus sur les démissions précoces de cadres (septembre 2022, enquêtes auprès de 3 100 puis 1 000 cadres du privé)"
+  },
+  {
+   "type": "texte",
+   "kicker": "Le mot",
+   "paragraphes": [
+    {
+     "texte": "En 2022, Kathryn Minshew, cofondatrice de la plateforme d’emploi américaine The Muse, donne un nom à ce moment :\nle « shift shock »."
+    },
+    {
+     "texte": "",
+     "gras": "La déception de la recrue dont le quotidien contredit les promesses de l’entretien."
+    }
+   ],
+   "source": "The Muse, enquête Shift Shock (début 2022, plateforme d’emploi américaine)"
+  },
+  {
+   "type": "stat",
+   "kicker": "Aux États-Unis",
+   "stat": "72 %",
+   "texte": "des plus de 2 500 répondants de l’audience de The Muse déclarent avoir déjà vécu un shift shock.",
+   "gras": "Et 80 % jugent acceptable de partir avant six mois.",
+   "source": "The Muse, enquête Shift Shock (début 2022, audience de la plateforme d’emploi, donnée américaine)"
+  },
+  {
+   "type": "stat",
+   "kicker": "En France",
+   "stat": "22 %",
+   "texte": "des cadres ont déjà démissionné d’un CDI dans les deux ans suivant leur prise de poste, et 12 % pendant la période d’essai.",
+   "gras": "Chez les moins de 35 ans, la part monte à 42 %.",
+   "source": "Apec, Focus sur les démissions précoces de cadres (septembre 2022, démissions des dix dernières années)"
+  },
+  {
+   "type": "couleur",
+   "kicker": "Les deux causes",
+   "texte": "Les cadres de tous âges citent deux raisons principales de l’écart :",
+   "accent": "le style managérial et les perspectives d’évolution."
+  },
+  {
+   "type": "texte",
+   "kicker": "La vitrine",
+   "paragraphes": [
+    {
+     "texte": "Dans l’étude de l’Apec publiée en novembre 2025, certains recruteurs reconnaissent ne pas être totalement transparents sur la rémunération, surtout en début de processus."
+    },
+    {
+     "texte": "",
+     "gras": "L’entretien montre le poste dans son meilleur jour."
+    }
+   ],
+   "source": "Apec, Regard des recruteurs sur le recrutement de cadres (novembre 2025, entretiens Ipsos et enquête auprès de 800 entreprises)"
+  },
+  {
+   "type": "sombre",
+   "kicker": "Mon avis",
+   "texte": "Je propose un indicateur :\nl’écart entre l’entretien\net le premier mois.",
+   "accent": "Un recrutement rapide qui déçoit coûte plus cher qu’un recrutement lent."
+  },
+  {
+   "type": "texte",
+   "kicker": "La question test",
+   "paragraphes": [
+    {
+     "texte": "À la fin du premier mois, posez une seule question à la recrue :",
+     "gras": "« Quelle phrase entendue en entretien ne correspond pas à votre quotidien ? »"
+    },
+    {
+     "texte": "Une réponse précise signale\nun shift shock, et appelle\nune correction datée du manager."
+    }
+   ]
+  },
+  {
+   "type": "photo",
+   "kicker": "Et vous ?",
+   "texte": "Vos candidats rencontrent-ils\nleurs futurs collègues avant\nla signature ?",
+   "accent": "Une demi-journée ensemble\nmontre le quotidien du poste."
+  }
+ ],
+ "fin": {
+  "kicker": "L’article complet",
+  "h2_a": "De l’entretien",
+  "h2_b": "au quotidien.",
+  "texte": "La grille des huit phrases d’entretien que le quotidien contredit, et la méthode en six étapes.",
+  "cta": "LIRE L’ARTICLE →",
+  "url_affichee": "BENJAMINCHAMINADE.COM/SHIFT-SHOCK"
+ }
+}
