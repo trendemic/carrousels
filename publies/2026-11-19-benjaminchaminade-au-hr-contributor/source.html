@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Kompot;font-weight:400;src:url(kompotsans-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:400;src:url(mulish-regular-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:700;src:url(mulish-bold-webfont.woff2) format('woff2')}
+:root{--violet:#5353bc;--orange:#ff6a00;--yellow:#f7cf0b;--cyan:#55dbde;--ink:#333333;--paper:#fbf9f5;--muted:#6b6b72}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Mulish,sans-serif;color:var(--ink)}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--paper);padding:110px 100px 0;display:flex;flex-direction:column}
+.page.dark{background:var(--violet);color:#fff}
+.foot{position:absolute;left:100px;right:100px;bottom:70px;display:flex;justify-content:space-between;align-items:center;font-size:26px;color:var(--muted)}
+.dark .foot{color:rgba(255,255,255,.7)}
+.foot img{height:34px}
+.num{font-family:Mulish;font-weight:700;font-size:26px;letter-spacing:.05em}
+.kicker{font-family:Mulish;font-weight:700;font-size:28px;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);margin-bottom:46px}
+.dark .kicker{color:var(--yellow)}
+h1{font-family:Kompot;font-weight:400;font-size:122px;line-height:.95;letter-spacing:-.01em}
+h2{font-family:Kompot;font-weight:400;font-size:100px;line-height:1;letter-spacing:-.005em}
+p{font-size:46px;line-height:1.35}
+.big{font-size:56px;line-height:1.28}
+b{font-weight:700}
+.hl{background:linear-gradient(transparent 60%,rgba(247,207,11,.7) 60%)}
+.blob{position:absolute;border-radius:50%}
+.swipe{font-weight:700;font-size:32px;display:flex;align-items:center;gap:20px;color:#fff}
+.swipe i{display:inline-block;width:90px;height:4px;background:var(--yellow);position:relative}
+.swipe i:after{content:"";position:absolute;right:-2px;top:-9px;border:11px solid transparent;border-left:16px solid var(--yellow);border-right:0}
+.soil{position:absolute;left:0;right:0;bottom:0;height:260px}
+.list{margin-top:60px;display:flex;flex-direction:column;gap:30px}
+.item{display:flex;gap:34px;align-items:flex-start;background:#fff;border-radius:26px;padding:34px 40px;border:2px solid #efebe3}
+.item .n{flex:0 0 76px;height:76px;border-radius:50%;background:var(--violet);color:#fff;font-family:Kompot;font-size:44px;display:flex;align-items:center;justify-content:center;margin-top:-6px}
+.item p{font-size:46px;line-height:1.28}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:46px}
+.cell{background:#fff;border-radius:24px;padding:28px 32px 30px;border:2px solid #efebe3}
+.cell i{display:block;width:30px;height:30px;border-radius:50%;margin-bottom:18px}
+.cell p{font-size:37px;line-height:1.25}
+</style></head><body>
+
+<!-- 1 -->
+<section class="page dark" data-document-role="page" data-label="Cover">
+  <svg class="soil" viewBox="0 0 1080 260" preserveAspectRatio="none"><path d="M0 90 C 180 40, 330 120, 540 80 S 900 30, 1080 85 L1080 260 L0 260Z" fill="#3e3e9a"/></svg>
+  <div class="blob" style="width:150px;height:150px;background:var(--yellow);right:110px;top:120px"></div>
+  <div class="kicker" style="margin-top:250px">HR Design</div>
+  <h1>The finish line became the starting line</h1>
+  <p class="big" style="margin-top:54px;color:rgba(255,255,255,.88);max-width:820px">Why HR business partner is giving way to business contributor.</p>
+  <div class="foot" style="z-index:2"><span style="background:#fff;border-radius:40px;padding:16px 28px;display:inline-flex"><img src="logo-benjamin-chaminade.svg" alt="" style="height:40px"></span><span class="swipe"><i></i></span></div>
+</section>
+
+<!-- 2 -->
+<section class="page" data-document-role="page" data-label="The compliment">
+  <div class="kicker">The title every People function wanted</div>
+  <h2>HR business partner was the highest compliment.</h2>
+  <p style="margin-top:60px">A seat at the leadership table. A voice in strategy. Proof that HR had moved past administration.</p>
+  <div style="margin-top:70px;border-left:10px solid var(--orange);padding-left:46px">
+    <p class="big">The catch&#8230; <span class="hl">strategy still comes from elsewhere,</span> and HR helps execute it.</p>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">2/9</span></div>
+</section>
+
+<!-- 3 -->
+<section class="page dark" data-document-role="page" data-label="Contributor">
+  <div class="blob" style="width:520px;height:520px;background:var(--cyan);right:-210px;top:-190px;opacity:.9"></div>
+  <h2 style="margin-top:300px;font-size:96px">A contributor brings what would not exist without HR.</h2>
+  <p class="big" style="margin-top:60px;color:rgba(255,255,255,.9)">Which capabilities we can credibly build. Which ones we can&#8217;t. <span style="color:var(--yellow)">Which experiences decide whether the strategy survives&nbsp;reality.</span></p>
+  <div class="foot"><img src="BC_logo1_simple_blanc.svg" alt=""><span class="num">3/9</span></div>
+</section>
+
+<!-- 4 -->
+<section class="page" data-document-role="page" data-label="The brief">
+  <div class="kicker">Before and after &#183; the brief</div>
+  <h2>A partner takes the brief. A contributor questions it.</h2>
+  <div class="list">
+    <div class="item"><span class="n">A</span><p>&#8220;Reduce turnover&#8221; produces a retention bonus.</p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">B</span><p>&#8220;Which experience are our people leaving?&#8221; produces a redesigned offer.</p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">4/9</span></div>
+</section>
+
+<!-- 5 -->
+<section class="page" data-document-role="page" data-label="Shifts">
+  <div class="kicker">Before and after &#183; the posture</div>
+  <h2 style="font-size:80px">What moves when HR contributes</h2>
+  <div class="grid">
+    <div class="cell"><i style="background:var(--violet)"></i><p>From employer branding <b>to experience architecture</b></p></div>
+    <div class="cell"><i style="background:var(--cyan)"></i><p>From individual productivity <b>to institutional intelligence</b></p></div>
+    <div class="cell"><i style="background:var(--yellow)"></i><p>From engagement surveys <b>to capability forecasting</b></p></div>
+    <div class="cell"><i style="background:var(--orange)"></i><p>From process owner <b>to guardian of coherence</b></p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">5/9</span></div>
+</section>
+
+<!-- 6 -->
+<section class="page dark" data-document-role="page" data-label="AI">
+  <div class="kicker">Where agentic AI lands</div>
+  <h2 style="font-size:96px">AI absorbs the execution work. Judgement stays.</h2>
+  <p class="big" style="margin-top:60px">Reading the culture. Naming the incoherences. Deciding what deserves to be measured.</p>
+  <p style="margin-top:auto;margin-bottom:220px;font-size:34px;line-height:1.4;color:rgba(255,255,255,.78)">Policy questions, job ads and analytics no longer need an experienced HR professional.</p>
+  <div class="foot"><img src="BC_logo1_simple_blanc.svg" alt=""><span class="num">6/9</span></div>
+</section>
+
+<!-- 7 -->
+<section class="page" data-document-role="page" data-label="The trap">
+  <div class="kicker">The pattern I meet most often</div>
+  <h2>Right vocabulary. Same reflexes.</h2>
+  <p style="margin-top:60px">Experience, capability, coherence: the words are there. AI pilots and skills frameworks too.</p>
+  <p style="margin-top:56px;font-weight:700;color:var(--violet)">Then an emergency lands on the desk&#8230;</p>
+  <p style="margin-top:26px">and the function runs like a service provider again.</p>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">7/9</span></div>
+</section>
+
+<!-- 8 -->
+<section class="page" data-document-role="page" data-label="Questions">
+  <div class="kicker">To ask your HR team this week</div>
+  <div class="list" style="margin-top:10px">
+    <div class="item"><span class="n">?</span><p>What do we bring to strategy that would not exist without us?</p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">?</span><p>Can marketing learn from an AI practice built in finance without sending a Slack message?</p></div>
+    <div class="item"><span class="n">?</span><p>Which moment of the talent cycle promises more than it&nbsp;delivers?</p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">8/9</span></div>
+</section>
+
+<!-- 9 -->
+<section class="page" data-document-role="page" data-label="Close">
+  <div class="blob" style="width:200px;height:200px;background:var(--yellow);right:100px;top:110px"></div>
+  <div class="blob" style="width:80px;height:80px;background:var(--orange);right:330px;top:250px"></div>
+  <div class="kicker" style="margin-top:170px">The real work</div>
+  <h2>Vocabulary changes faster than posture.</h2>
+  <p class="big" style="margin-top:56px;color:var(--muted)">Closing that gap is the job.</p>
+  <div style="margin-top:auto;margin-bottom:170px">
+    <p style="font-size:32px;color:var(--muted)">Full article</p>
+    <a href="https://benjaminchaminade.com.au/hr-partner-business-contributor/?utm_source=linkedin&utm_medium=social&utm_campaign=carrousel" style="text-decoration:none"><p style="font-family:Kompot;font-size:50px;color:var(--violet);margin-top:6px">benjaminchaminade.com.au</p><p style="font-weight:700;font-size:34px;color:var(--ink);margin-top:4px">/hr-partner-business-contributor</p></a>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">9/9</span></div>
+</section>
+</body></html>
