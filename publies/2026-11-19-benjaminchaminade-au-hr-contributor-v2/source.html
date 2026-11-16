@@ -1,0 +1,159 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Kompot;font-weight:400;src:url(kompotsans-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:400;src:url(mulish-regular-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:700;src:url(mulish-bold-webfont.woff2) format('woff2')}
+:root{--violet:#5353bc;--orange:#ff6a00;--yellow:#f7cf0b;--cyan:#55dbde;--ink:#333333;--paper:#fbf9f5;--muted:#6b6b72}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Mulish,sans-serif;color:var(--ink)}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--paper);padding:110px 100px 0;display:flex;flex-direction:column}
+.page.dark{background:var(--violet);color:#fff}
+.foot{position:absolute;left:100px;right:100px;bottom:70px;display:flex;justify-content:space-between;align-items:center;font-size:26px;color:var(--muted)}
+.dark .foot{color:rgba(255,255,255,.7)}
+.foot img{height:34px}
+.num{font-family:Mulish;font-weight:700;font-size:26px;letter-spacing:.05em}
+.kicker{font-family:Mulish;font-weight:700;font-size:28px;letter-spacing:.16em;text-transform:uppercase;color:var(--orange);margin-bottom:46px}
+.dark .kicker{color:var(--yellow)}
+h1{font-family:Kompot;font-weight:400;font-size:122px;line-height:.95;letter-spacing:-.01em}
+h2{font-family:Kompot;font-weight:400;font-size:100px;line-height:1;letter-spacing:-.005em}
+p{font-size:46px;line-height:1.35}
+.big{font-size:56px;line-height:1.28}
+b{font-weight:700}
+.hl{background:linear-gradient(transparent 60%,rgba(247,207,11,.7) 60%)}
+.blob{position:absolute;border-radius:50%}
+.swipe{font-weight:700;font-size:32px;display:flex;align-items:center;gap:20px;color:#fff}
+.swipe i{display:inline-block;width:90px;height:4px;background:var(--yellow);position:relative}
+.swipe i:after{content:"";position:absolute;right:-2px;top:-9px;border:11px solid transparent;border-left:16px solid var(--yellow);border-right:0}
+.soil{position:absolute;left:0;right:0;bottom:0;height:260px}
+.list{margin-top:60px;display:flex;flex-direction:column;gap:30px}
+.item{display:flex;gap:34px;align-items:flex-start;background:#fff;border-radius:26px;padding:34px 40px;border:2px solid #efebe3}
+.item .n{flex:0 0 76px;height:76px;border-radius:50%;background:var(--violet);color:#fff;font-family:Kompot;font-size:44px;display:flex;align-items:center;justify-content:center;margin-top:-6px}
+.item p{font-size:46px;line-height:1.28}
+.grid{display:grid;grid-template-columns:1fr 1fr;gap:20px;margin-top:46px}
+.cell{background:#fff;border-radius:24px;padding:28px 32px 30px;border:2px solid #efebe3}
+.cell i{display:block;width:30px;height:30px;border-radius:50%;margin-bottom:18px}
+.cell p{font-size:37px;line-height:1.25}
+
+/* v2 : système de titres unique */
+.page h2{font-size:84px;line-height:1}
+.kicker{margin-bottom:34px}
+.lead{margin-top:44px;font-size:42px;line-height:1.35}
+.src{font-size:26px;line-height:1.4;color:var(--muted)}
+.dark .src{color:rgba(255,255,255,.7)}
+.list.tight{margin-top:44px;gap:20px}
+.list.tight .item{padding:24px 34px;align-items:center}
+.list.tight .item .n{flex:0 0 66px;height:66px;font-size:40px;margin-top:0}
+.list.tight .item p{font-size:38px;line-height:1.25}
+.stat{background:#fff;border-radius:24px;padding:30px 32px;border:2px solid #efebe3}
+.stat b{display:block;font-family:Kompot;font-weight:400;font-size:62px;line-height:1;color:var(--violet);margin-bottom:14px}
+.stat p{font-size:31px;line-height:1.3}
+.bignum{font-family:Kompot;font-size:300px;line-height:.85;color:var(--yellow)}
+.cta{background:var(--yellow);color:var(--ink);border-radius:26px;padding:30px 36px}
+.cta p{font-size:36px;line-height:1.3}
+</style></head><body>
+
+<!-- 1 -->
+<section class="page dark" data-document-role="page" data-label="Cover">
+  <svg class="soil" viewBox="0 0 1080 260" preserveAspectRatio="none"><path d="M0 90 C 180 40, 330 120, 540 80 S 900 30, 1080 85 L1080 260 L0 260Z" fill="#3e3e9a"/></svg>
+  <img src="photo-couverture.webp" alt="" style="position:absolute;right:-150px;top:10px;width:860px">
+  <div class="kicker" style="margin-top:390px">HR Design &#183; the 5-rung ladder</div>
+  <h1 style="font-size:104px">The finish line<br>became the<br>starting line</h1>
+  <p class="big" style="margin-top:40px;color:rgba(255,255,255,.88);max-width:860px">Why HR business partner is giving way to business contributor.</p>
+  <div class="foot" style="z-index:2"><span style="background:#fff;border-radius:40px;padding:16px 28px;display:inline-flex"><img src="logo-benjamin-chaminade.svg" alt="" style="height:40px"></span><span class="swipe"><i></i></span></div>
+</section>
+
+<!-- 2 -->
+<section class="page" data-document-role="page" data-label="Wake-up call">
+  <div class="kicker">The wake-up call</div>
+  <div class="bignum" style="color:var(--violet)">91%</div>
+  <h2 style="margin-top:30px">of CHROs rank AI among their most immediate concerns.</h2>
+  <div style="margin-top:50px;border-left:10px solid var(--orange);padding-left:40px">
+    <p style="font-size:40px">The question shifts from <b>&#8220;how engaged are our people?&#8221;</b> to <span class="hl">&#8220;what can they actually do, and how fast can they adapt?&#8221;</span></p>
+  </div>
+  <p class="src" style="margin-top:auto;margin-bottom:170px">CHRO Association 2026 survey, around 150 CHROs of large US corporations.</p>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">2/9</span></div>
+</section>
+
+<!-- 3 -->
+<section class="page" data-document-role="page" data-label="Five forces">
+  <div class="kicker">Why the partner role is not enough</div>
+  <h2>5 forces push it aside</h2>
+  <div class="list tight">
+    <div class="item"><span class="n">1</span><p>Consumerisation of work</p></div>
+    <div class="item"><span class="n">2</span><p>Arrival of agentic AI</p></div>
+    <div class="item"><span class="n">3</span><p>Boards reading workforce data like the&nbsp;P&amp;L</p></div>
+    <div class="item"><span class="n">4</span><p>Pay transparency</p></div>
+    <div class="item"><span class="n">5</span><p>Demographic renewal</p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">3/9</span></div>
+</section>
+
+<!-- 4 -->
+<section class="page" data-document-role="page" data-label="Australia">
+  <div class="kicker">In Australia</div>
+  <h2>Pay and workforce data are out in the open</h2>
+  <div class="grid" style="margin-top:44px">
+    <div class="stat"><b>Dec 2022</b><p>Fair Work Act: employees can share their pay and ask colleagues about theirs.</p></div>
+    <div class="stat"><b>Feb 2024</b><p>WGEA starts publishing the gender pay gap of every private employer with 100+ staff.</p></div>
+    <div class="stat"><b>Half</b><p>of the ~5,000 employers in the first release showed a gap above 9.1%.</p></div>
+    <div class="stat"><b>x2</b><p>Australians aged 65+ more than double by 2062&#8211;63 (Intergenerational Report 2023).</p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">4/9</span></div>
+</section>
+
+<!-- 5 -->
+<section class="page" data-document-role="page" data-label="Ladder">
+  <div class="kicker">The HR Design ladder</div>
+  <h2>5 rungs. Where does your HR sit?</h2>
+  <img src="echelle.webp" alt="" style="margin-top:44px;width:880px;border-radius:24px;border:2px solid #efebe3">
+  <p class="lead">Most functions sit between rungs 2 and 3, and aim for 4.</p>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">5/9</span></div>
+</section>
+
+<!-- 6 -->
+<section class="page dark" data-document-role="page" data-label="Rung 3.5">
+  <div class="kicker">The trap</div>
+  <div class="bignum">3.5</div>
+  <h2 style="margin-top:30px">The rung 3.5 syndrome</h2>
+  <p class="lead" style="color:rgba(255,255,255,.9)">Talks like rung 4. Operates like rung 2 <span style="color:var(--yellow)">as soon as an emergency lands on the desk.</span></p>
+  <p class="lead" style="margin-top:34px">Closing that gap takes 12 to 18 months.</p>
+  <div class="foot"><img src="BC_logo1_simple_blanc.svg" alt=""><span class="num">6/9</span></div>
+</section>
+
+<!-- 7 -->
+<section class="page" data-document-role="page" data-label="Five shifts">
+  <div class="kicker">From partner to contributor</div>
+  <h2>5 shifts to make</h2>
+  <div class="list tight">
+    <div class="item"><span class="n" style="background:var(--orange)">1</span><p>Responding <b>&#8594; anticipating</b></p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">2</span><p>Employer branding <b>&#8594; experience architecture</b></p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">3</span><p>Individual productivity <b>&#8594; institutional intelligence</b></p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">4</span><p>Engagement surveys <b>&#8594; capability forecasting</b></p></div>
+    <div class="item"><span class="n" style="background:var(--orange)">5</span><p>Process owner <b>&#8594; guardian of coherence</b></p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">7/9</span></div>
+</section>
+
+<!-- 8 -->
+<section class="page" data-document-role="page" data-label="Three moves">
+  <div class="kicker">This quarter &#183; no new budget</div>
+  <h2>3 moves to start now</h2>
+  <div class="list tight">
+    <div class="item"><span class="n">1</span><p><b>Audit one moment</b> of the talent cycle: what is promised, delivered and felt.</p></div>
+    <div class="item"><span class="n">2</span><p><b>Pick one AI experiment</b> and turn it into a shared, documented practice.</p></div>
+    <div class="item"><span class="n">3</span><p><b>Swap one engagement question</b> for a capability question.</p></div>
+  </div>
+  <div class="foot"><img src="logo-benjamin-chaminade.svg" alt=""><span class="num">8/9</span></div>
+</section>
+
+<!-- 9 -->
+<section class="page dark" data-document-role="page" data-label="CTA">
+  <div class="kicker">Your next step</div>
+  <h2>Find your rung in 5&nbsp;minutes.</h2>
+  <p class="lead" style="color:rgba(255,255,255,.9)">The full article includes the 20-question self&#8209;assessment.</p>
+  <a href="https://benjaminchaminade.com.au/hr-partner-business-contributor/?utm_source=linkedin&utm_medium=social&utm_campaign=carrousel" style="text-decoration:none;margin-top:44px"><p style="font-size:30px;color:rgba(255,255,255,.75)">Full article</p><p style="font-family:Kompot;font-size:56px;color:var(--yellow);margin-top:6px">benjaminchaminade.com.au</p><p style="font-weight:700;font-size:34px;color:#fff;margin-top:4px">/hr-partner-business-contributor</p></a>
+  <div class="cta" style="margin-top:56px"><p><b>Keynote or workshop for your leadership or HR team?</b> Send me a message.</p></div>
+  <div class="foot"><img src="BC_logo1_simple_blanc.svg" alt=""><span class="num">9/9</span></div>
+</section>
+</body></html>
