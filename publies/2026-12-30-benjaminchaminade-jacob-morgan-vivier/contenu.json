@@ -1,0 +1,98 @@
+{
+ "kicker_couverture": "Intelligence artificielle",
+ "titre_l1": "L’IA fait le travail\ndes débutants.",
+ "titre_l2": "Qui formera vos\nfuturs managers ?",
+ "slides": [
+  {
+   "type": "stat",
+   "kicker": "Les chiffres",
+   "stat": "– 28 %",
+   "texte": "pour les embauches en CDI\ndes 21-29 ans dans les métiers les plus exposés à l’IA, entre novembre 2022 et mars 2026.",
+   "gras": "Dans les métiers les moins exposés : – 8 %.",
+   "source": "Banque de France, Bloc-notes Éco n° 463 (octobre 2026, données Dares sur les mouvements de main-d’œuvre)"
+  },
+  {
+   "type": "texte",
+   "kicker": "Par âge",
+   "paragraphes": [
+    {
+     "texte": "L’écart entre métiers exposés et métiers protégés se resserre chez les 30-49 ans. Après 50 ans, il devient négligeable.",
+     "gras": "Le ralentissement touche d’abord la porte d’entrée."
+    },
+    {
+     "texte": "Les auteurs restent prudents : leurs données ne séparent pas encore l’effet propre de l’IA du profil des entreprises qui l’adoptent."
+    }
+   ],
+   "source": "Banque de France, Bloc-notes Éco n° 463 (octobre 2026)"
+  },
+  {
+   "type": "texte",
+   "kicker": "L’idée",
+   "paragraphes": [
+    {
+     "texte": "En janvier 2026, Jacob Morgan, auteur américain spécialiste de l’avenir du travail, alerte sur le « démantèlement accidentel » du vivier des futurs dirigeants.",
+     "gras": "Les postes d’entrée forment les managers de demain."
+    },
+    {
+     "texte": "Dans ces premières années, un débutant apprend le métier, ses clients et ses codes. Sans elles, personne n’arrive prêt à son premier poste de manager."
+    }
+   ],
+   "source": "Jacob Morgan, How Short-Term AI Efficiency Can Undermine Your Future Leaders (The Future Organization, janvier 2026)"
+  },
+  {
+   "type": "stat",
+   "kicker": "Chez les cadres",
+   "stat": "– 5 %",
+   "texte": "pour les recrutements de cadres ayant cinq ans d’expérience ou moins, en France en 2025.",
+   "gras": "Leur volume reste 13 % sous celui de 2023.",
+   "source": "Apec, Prévisions de recrutements de cadres 2026 (avril 2026, 8 100 entreprises du privé)"
+  },
+  {
+   "type": "stat",
+   "kicker": "L’usage",
+   "stat": "1 sur 2",
+   "texte": "Un cadre du privé sur deux utilise l’IA au moins une fois par semaine en mars 2026.",
+   "gras": "Les premières versions changent de mains.",
+   "source": "Apec, Les cadres et l’IA (mai 2026, enquête auprès de 2 000 cadres du privé)"
+  },
+  {
+   "type": "couleur",
+   "kicker": "Le piège",
+   "texte": "Melanie Tinto, DRH\nde l’américain Grainger,\nle dit à Jacob Morgan :",
+   "accent": "le talent coupé\nà la source se rachète\nplus cher."
+  },
+  {
+   "type": "sombre",
+   "kicker": "Mon avis",
+   "texte": "Supprimer un poste d’entrée économise un salaire cette année.",
+   "accent": "Et retire un manager à votre équipe de 2031."
+  },
+  {
+   "type": "texte",
+   "kicker": "La question test",
+   "paragraphes": [
+    {
+     "texte": "Listez les tâches que l’IA prend en charge dans votre équipe depuis un an.",
+     "gras": "Qui les faisait avant, et pour apprendre quoi ?"
+    },
+    {
+     "texte": "Gardez au moins une de ces tâches comme terrain d’entraînement : le débutant la fait, l’IA la relit et le manager en débat avec lui."
+    }
+   ]
+  },
+  {
+   "type": "photo",
+   "kicker": "Et vous ?",
+   "texte": "Combien de débutants\navez-vous recrutés\ncette année ?",
+   "accent": "Vos managers de 2031\nsont parmi eux."
+  }
+ ],
+ "fin": {
+  "kicker": "Pour vos managers",
+  "h2_a": "Garder le jugement",
+  "h2_b": "en vie.",
+  "texte": "La conférence « Manager des humains à l’ère de l’IA » : la friction, la pratique et le débat, trois conditions sous la protection du manager.",
+  "cta": "DÉCOUVRIR MES CONFÉRENCES →",
+  "url_affichee": "BENJAMINCHAMINADE.COM/INTERVENTIONS"
+ }
+}
