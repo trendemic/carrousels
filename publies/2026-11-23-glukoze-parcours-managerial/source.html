@@ -1,0 +1,148 @@
+<!doctype html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Expose;font-weight:700;src:url(Expose-Bold.woff2) format('woff2')}
+@font-face{font-family:Bespoke;font-weight:400;src:url(BespokeSans-Regular.woff2) format('woff2')}
+:root{--navy:#192a3d;--turq:#44c3cc;--green:#01cc9e;--red:#ff5959;--pink:#ff99bb;--paper:#f6f3ee;--ink:#192a3d;--muted:#5d6b7a}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:#888;font-family:Bespoke,sans-serif;color:var(--ink)}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;background:var(--paper);padding:110px 100px 0;display:flex;flex-direction:column}
+.page.dark{background:var(--navy);color:#fff}
+.foot{position:absolute;left:100px;right:100px;bottom:70px;display:flex;justify-content:space-between;align-items:center;font-size:26px;color:var(--muted);letter-spacing:.02em}
+.dark .foot{color:rgba(255,255,255,.6)}
+.foot img{height:38px}
+.num{font-family:Expose;font-size:24px}
+.dots{display:flex;gap:16px}
+.dots i{width:26px;height:26px;border-radius:50%;display:block}
+.kicker{font-family:Expose;font-size:30px;letter-spacing:.14em;text-transform:uppercase;color:var(--turq);margin-bottom:48px}
+h1{font-family:Expose;font-weight:700;font-size:150px;line-height:.98;letter-spacing:-.02em}
+h2{font-family:Expose;font-weight:700;font-size:96px;line-height:1.02;letter-spacing:-.015em}
+p{font-size:46px;line-height:1.32}
+.big{font-size:58px;line-height:1.25}
+.accent{color:var(--turq)}
+.mark{background:linear-gradient(transparent 62%,rgba(68,195,204,.45) 62%)}
+.markr{background:linear-gradient(transparent 62%,rgba(255,89,89,.35) 62%)}
+.tag{display:inline-flex;align-items:center;gap:18px;font-family:Expose;font-size:30px;letter-spacing:.12em;text-transform:uppercase;padding:18px 30px;border-radius:60px;align-self:flex-start}
+.blob{position:absolute;border-radius:50%}
+.swipe{font-family:Expose;font-size:34px;display:flex;align-items:center;gap:20px;color:#fff}
+.swipe b{display:inline-block;width:90px;height:4px;background:var(--turq);position:relative}
+.swipe b:after{content:"";position:absolute;right:-2px;top:-9px;border:11px solid transparent;border-left:16px solid var(--turq);border-right:0}
+.steps{display:flex;flex-direction:column;gap:34px;margin-top:70px}
+.step{display:flex;align-items:center;gap:40px;background:#fff;border-radius:28px;padding:38px 44px;box-shadow:0 2px 0 rgba(25,42,61,.06)}
+.step .n{flex:0 0 96px;height:96px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-family:Expose;font-size:50px;color:#fff}
+.step p{font-size:48px}
+.scale{margin-top:64px;display:flex;flex-direction:column;gap:22px;position:relative}
+.row{display:flex;align-items:center;gap:34px;background:#fff;border-radius:24px;padding:34px 40px}
+.row i{flex:0 0 40px;height:40px;border-radius:50%}
+.row p{font-size:44px}
+.ph{position:absolute;left:0;right:0;top:0;width:1080px;object-fit:cover}
+.phbox{width:880px;height:420px;object-fit:cover;border-radius:28px;display:block}
+</style></head><body>
+
+<!-- 1 couverture -->
+<section class="page dark" data-document-role="page" data-label="Couverture">
+  <img class="ph" src="photo-couloir.jpg" alt="" style="height:500px;object-position:center 25%">
+  <div style="position:absolute;left:0;right:0;top:320px;height:180px;background:linear-gradient(rgba(25,42,61,0),var(--navy))"></div>
+  <div class="blob" style="width:120px;height:120px;background:var(--red);right:90px;top:440px"></div>
+  <div class="blob" style="width:56px;height:56px;background:var(--green);right:230px;top:510px"></div>
+  <div style="margin-top:auto;margin-bottom:200px;position:relative">
+    <div class="kicker">Parcours managérial</div>
+    <h1 style="font-size:92px;line-height:1.02">Remplacez vos formations au management par un parcours managérial</h1>
+    <p style="margin-top:44px;color:var(--turq);font-family:Expose;font-size:50px">Une formation s'oublie.<br>Un parcours s'installe.</p>
+  </div>
+  <div class="foot"><img src="logo-glukoze-blanc.svg" alt=""><span class="swipe"><b></b></span></div>
+</section>
+
+<!-- 2 -->
+<section class="page" data-document-role="page" data-label="Constat">
+  <div class="dots" style="margin-bottom:90px"><i style="background:var(--turq)"></i><i style="background:#d9d4cc"></i><i style="background:#d9d4cc"></i></div>
+  <h2 style="font-size:88px">Former vos managers, tout le monde est&nbsp;pour.</h2>
+  <p class="big" style="margin-top:50px;color:var(--muted)">Ligne budgétaire, module, inscrits&nbsp;: tout y est.</p>
+  <div style="margin-top:auto;margin-bottom:250px;border-left:10px solid var(--turq);padding-left:50px">
+    <p class="big">Le souci, c'est la suite… <span class="mark">la compétence existe dans la salle et disparaît dans&nbsp;l'agenda.</span></p>
+  </div>
+  <div class="foot"><img src="logo-glukoze.svg" alt=""><span class="num">2/9</span></div>
+</section>
+
+<!-- 3 formation vs parcours -->
+<section class="page" data-document-role="page" data-label="Formation ou parcours">
+  <div class="kicker">Avant, après</div>
+  <span class="tag" style="background:rgba(255,89,89,.13);color:#d83c3c"><i style="width:22px;height:22px;border-radius:50%;background:var(--red)"></i>La formation</span>
+  <p style="margin-top:28px">Elle traite un sujet à un moment donné.</p>
+  <p style="margin-top:14px;color:var(--muted);font-size:40px">On la juge à la satisfaction.</p>
+  <span class="tag" style="background:rgba(1,204,158,.14);color:#008f6f;margin-top:70px"><i style="width:22px;height:22px;border-radius:50%;background:var(--green)"></i>Le parcours</span>
+  <p style="margin-top:28px">Une suite de rendez-vous reliés&nbsp;: <span class="mark">chaque étape suppose la précédente et prépare la suivante.</span></p>
+  <p style="margin-top:14px;color:var(--muted);font-size:40px">On le juge aux pratiques observées dans les&nbsp;équipes.</p>
+  <div class="foot"><img src="logo-glukoze.svg" alt=""><span class="num">3/9</span></div>
+</section>
+
+<!-- 4 la rupture -->
+<section class="page dark" data-document-role="page" data-label="La rupture">
+  <img class="ph" src="photo-entre-deux.jpg" alt="" style="height:560px;object-position:65% center">
+  <div style="position:absolute;left:0;right:0;top:400px;height:160px;background:linear-gradient(rgba(25,42,61,0),var(--navy))"></div>
+  <div style="margin-top:auto;margin-bottom:220px;position:relative">
+    <div class="kicker">Là où ça casse</div>
+    <h2 style="font-size:96px">Entre deux sessions.</h2>
+    <p class="big" style="margin-top:40px;color:rgba(255,255,255,.88)">Dans les semaines où personne n'organise <span style="color:var(--turq)">l'occasion d'appliquer.</span></p>
+  </div>
+  <div class="foot"><img src="logo-glukoze-blanc.svg" alt=""><span class="num">4/9</span></div>
+</section>
+
+<!-- 5 trois effets -->
+<section class="page" data-document-role="page" data-label="Trois effets">
+  <img class="phbox" src="photo-atelier.jpg" alt="" style="height:360px">
+  <h2 style="font-size:66px;margin-top:50px">Ce qu'une formation isolée n'atteint pas</h2>
+  <div class="scale" style="margin-top:36px;gap:18px">
+    <div class="row" style="padding:26px 36px"><i style="background:var(--turq)"></i><p style="font-size:40px">Des pratiques cohérentes entre services</p></div>
+    <div class="row" style="padding:26px 36px"><i style="background:var(--green)"></i><p style="font-size:40px">Des managers qui se connaissent</p></div>
+    <div class="row" style="padding:26px 36px"><i style="background:var(--pink)"></i><p style="font-size:40px">Un vocabulaire managérial partagé</p></div>
+  </div>
+  <div class="foot"><img src="logo-glukoze.svg" alt=""><span class="num">5/9</span></div>
+</section>
+
+<!-- 6 signaux -->
+<section class="page" data-document-role="page" data-label="Signaux">
+  <div class="kicker">Le catalogue ne suffit plus quand…</div>
+  <div class="scale" style="margin-top:0;gap:20px">
+    <div class="row"><i style="background:var(--red)"></i><p style="font-size:40px">Deux services voisins tranchent la même situation à l'opposé</p></div>
+    <div class="row"><i style="background:var(--red)"></i><p style="font-size:40px">Vos nouveaux managers demandent conseil à leurs anciens collègues plutôt qu'à leur hiérarchie</p></div>
+    <div class="row"><i style="background:var(--red)"></i><p style="font-size:40px">Les formations de l'an dernier ne laissent aucune trace dans les entretiens annuels</p></div>
+    <div class="row"><i style="background:var(--red)"></i><p style="font-size:40px">Les managers récemment promus partent en premier</p></div>
+  </div>
+  <div class="foot"><img src="logo-glukoze.svg" alt=""><span class="num">6/9</span></div>
+</section>
+
+<!-- 7 relais -->
+<section class="page" data-document-role="page" data-label="Le relais">
+  <img class="phbox" src="photo-relais.jpg" alt="" style="height:400px;object-position:center 25%">
+  <div class="kicker" style="margin-top:50px;margin-bottom:30px">Le relais avant le contenu</div>
+  <h2 style="font-size:74px">Embarquez le niveau juste au-dessus.</h2>
+  <p style="margin-top:36px;font-size:42px">Sans lui, personne ne demande à vos managers <span class="mark">ce qu'ils ont appris.</span></p>
+  <div class="foot"><img src="logo-glukoze.svg" alt=""><span class="num">7/9</span></div>
+</section>
+
+<!-- 8 questions -->
+<section class="page dark" data-document-role="page" data-label="Trois questions">
+  <div class="kicker">À trancher avant de choisir les thèmes</div>
+  <div class="steps" style="margin-top:20px">
+    <div class="step" style="background:rgba(255,255,255,.08)"><span class="n" style="background:var(--turq)">?</span><p style="font-size:44px;color:#fff">Qui organise les occasions d'appliquer&nbsp;?</p></div>
+    <div class="step" style="background:rgba(255,255,255,.08)"><span class="n" style="background:var(--green)">?</span><p style="font-size:44px;color:#fff">Qui reçoit le compte rendu&nbsp;?</p></div>
+    <div class="step" style="background:rgba(255,255,255,.08)"><span class="n" style="background:var(--red)">?</span><p style="font-size:44px;color:#fff">Sur quelle ligne du budget inscrivez-vous cette charge&nbsp;?</p></div>
+  </div>
+  <div class="foot"><img src="logo-glukoze-blanc.svg" alt=""><span class="num">8/9</span></div>
+</section>
+
+<!-- 9 CTA -->
+<section class="page dark" data-document-role="page" data-label="Question">
+  <div class="blob" style="width:520px;height:520px;background:var(--turq);left:-200px;bottom:-160px;opacity:.95"></div>
+  <div class="blob" style="width:120px;height:120px;background:var(--red);left:150px;bottom:470px"></div>
+  <div class="blob" style="width:64px;height:64px;background:var(--green);left:320px;bottom:420px"></div>
+  <div class="kicker">Et chez vous&nbsp;?</div>
+  <h2 style="font-size:92px">Entre deux sessions, qui accompagne vos managers&nbsp;?</h2>
+  <div style="margin-top:auto;margin-bottom:250px;align-self:flex-end;text-align:right">
+    <p style="font-size:34px;color:rgba(255,255,255,.7)">L'article complet</p>
+    <a href="https://glukoze.com/creez-votre-parcours-managerial/?utm_source=linkedin&utm_medium=social&utm_campaign=carrousel" style="text-decoration:none;color:#fff"><p style="font-family:Expose;font-size:48px;margin-top:10px">glukoze.com</p><p style="font-size:32px;margin-top:4px;color:rgba(255,255,255,.85)">/creez-votre-parcours-managerial</p></a>
+  </div>
+  <div class="foot" style="justify-content:flex-end"><img src="logo-glukoze-blanc.svg" alt=""></div>
+</section>
+</body></html>
