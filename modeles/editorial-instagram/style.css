@@ -37,6 +37,12 @@ p.bal{text-wrap:balance}
 .white p.big{font-size:66px;line-height:1.2}
 .white .swipe{position:absolute;right:96px;bottom:84px;font-weight:700;font-size:26px;letter-spacing:6px}
 .white .stat{font-family:Kompot;font-size:150px;line-height:1;color:var(--violet);display:block;margin-bottom:18px}
+.white.photo{background:#000;color:#fff}
+.white.photo img.bg{position:absolute;inset:0;width:100%;height:100%;object-fit:cover}
+.white.photo .shade{position:absolute;inset:0;background:rgba(30,30,30,.74)}
+.white.photo .top{border-bottom-color:#fff}
+.white.photo .stat{color:var(--yellow)}
+.white.photo .src{color:rgba(255,255,255,.78)}
 /* pages photo + bandeau sombre */
 .split{background:var(--night);color:#fff}
 .split img.ph{position:absolute;top:0;left:0;width:1080px;height:760px;object-fit:cover}

@@ -9,7 +9,8 @@ Format JSON :
   "titre_l1": "La génération Z se sent seule.",
   "titre_l2": "Son meilleur club : le bureau.",
   "slides": [
-    {"type": "stat", "kicker": "Les chiffres", "stat": "37 %", "texte": "...", "gras": "...", "source": "..."},
+    {"type": "stat", "kicker": "Les chiffres", "stat": "37 %", "texte": "...", "gras": "...", "source": "...",
+     "photo": "stat-1.jpg"},   (photo facultative : fond photo assombri, fichier dans photos/)
     {"type": "texte", "kicker": "Le quartier", "paragraphes": [{"texte": "...", "gras": "..."}], "source": "..."},
     {"type": "couleur" | "sombre", "kicker": "Mon avis", "texte": "...", "accent": "..."},
     {"type": "photo", "kicker": "...", "texte": "...", "accent": "..."}
@@ -67,14 +68,18 @@ def main():
         t = s["type"]
         src = f'<div class="src">{esc(s["source"])}</div>' if s.get("source") else ""
         if t in ("stat", "texte"):
-            top = f'<div class="top"><span class="kicker">{esc(s["kicker"])}</span><img src="logo-benjamin-chaminade.svg" alt=""></div>'
+            photo = s.get("photo")
+            logo = "BC_logo1_simple_blanc.svg" if photo else "logo-benjamin-chaminade.svg"
+            top = f'<div class="top"><span class="kicker">{esc(s["kicker"])}</span><img src="{logo}" alt=""></div>'
+            bg = f'<img class="bg" src="photos/{photo}" alt=""><div class="shade"></div>' if photo else ""
             if t == "stat":
                 body = '<p><span class="stat">' + esc(s["stat"]) + "</span>" + para(s.get("texte", ""), s.get("gras"))[3:]
             else:
                 body = "".join(para(p.get("texte", ""), p.get("gras")) for p in s["paragraphes"])
             swipe = '<div class="swipe">LA SUITE →</div>' if first_white else ""
             first_white = False
-            parts.append(f'<section class="page white">{top}<div class="body">{body}</div>{src}{swipe}</section>')
+            cls = "page white photo" if photo else "page white"
+            parts.append(f'<section class="{cls}">{bg}{top}<div class="body">{body}</div>{src}{swipe}</section>')
         elif t in ("couleur", "sombre"):
             cls = "solid" if t == "couleur" else "solid dark"
             acc = f' <em>{esc(s["accent"])}</em>' if s.get("accent") else ""
