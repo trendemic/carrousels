@@ -1,2 +1,6 @@
-cover: https://unsplash.com/photos (photo-1771054244002-4445dc1da2eb)
-groupe: photo-1601383496802-dfaa02f6ae6e
+Photos Unsplash (licence Unsplash, filtre license=free) :
+- cover : photo-1582896911227-c966f6e7fb93 (femme en veste à carreaux, visage centré, remplace la couverture du 25/11/2026)
+- stat-1 (43 %) : photo-1529690840038-f38da8894ff6 (mains façonnant un pot en argile)
+- stat-2 (30 %) : photo-1536940135352-b4b3875df888 (homme lisant devant une fenêtre)
+- stat-3 (58 %) : photo-1662540507168-69cc7e770dd4 (personne dans un escalier de bureau)
+- groupe : photo-1601383496802-dfaa02f6ae6e

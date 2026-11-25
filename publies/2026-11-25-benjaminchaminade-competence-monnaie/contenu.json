@@ -1,6 +1,6 @@
 {
   "kicker_couverture": "Compétences",
-  "titre_l1": "Une compétence est une monnaie.",
+  "titre_l1": "Une compétence est\ncomme une monnaie.",
   "titre_l2": "Sa valeur tient à la confiance.",
   "slides": [
     {
@@ -9,7 +9,8 @@
       "stat": "43 %",
       "texte": "des travailleurs de l’Union européenne disent avoir assez d’occasions d’utiliser leurs compétences et leurs connaissances dans leur travail.",
       "gras": "Moins d’un actif européen sur deux a cette chance.",
-      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, faits saillants (avril 2026)"
+      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, faits saillants (avril 2026)",
+      "photo": "stat-1.png"
     },
     {
       "type": "texte",
@@ -31,7 +32,8 @@
       "stat": "30 %",
       "texte": "des travailleurs de l’Union européenne se disent surcompétents pour leur travail actuel.",
       "gras": "La part va de 18 % à Malte à 44 % en Roumanie.",
-      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, rapport de synthèse (avril 2026)"
+      "source": "Eurofound, enquête européenne sur les conditions de travail 2024, rapport de synthèse (avril 2026)",
+      "photo": "stat-2.png"
     },
     {
       "type": "sombre",
@@ -45,7 +47,8 @@
       "stat": "58 %",
       "texte": "des salariés qui envisagent d’évoluer d’ici deux ans préfèrent le faire dans leur entreprise actuelle.",
       "gras": "33 % pensent plutôt changer d’entreprise.",
-      "source": "Sondage Ifop pour Avenir Actifs, baromètre de l’évolution professionnelle (juillet-août 2025, 4 810 salariés)"
+      "source": "Sondage Ifop pour Avenir Actifs, baromètre de l’évolution professionnelle (juillet-août 2025, 4 810 salariés)",
+      "photo": "stat-3.png"
     },
     {
       "type": "texte",
