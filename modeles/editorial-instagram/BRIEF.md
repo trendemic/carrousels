@@ -24,8 +24,8 @@ Format exact du JSON : lis la docstring de modeles/editorial-instagram/generer.p
    - le texte du post LinkedIn (700 à 1 300 caractères, voix de Bob, même règles ; une ouverture sur une scène que le lecteur vit, l'idée, une vraie question, puis « Les sources sont en commentaire. » ou « Le lien vers l'article est en commentaire. »), suivi exactement de cette signature :
      -------
      Je suis entrepreneur, conférencier et consultant franco-australien en management, RH et innovation. J'aide les comités de direction et les DRH à préparer leurs équipes à l'avenir, en conférence, en atelier ou en mission construite avec eux.
-   - le premier commentaire (lien de l'article avec ?utm_source=linkedin&utm_medium=social&utm_campaign=carrousel, ou la liste des sources avec leurs URL) ;
-   - la légende Instagram (300 à 600 caractères, 3 à 5 hashtags) ;
+   - le premier commentaire (lien de l'article avec ?utm_source=linkedin&utm_medium=social&utm_campaign=carrousel, publié avec le raccourcisseur de Metricool pour que le lecteur ne voie jamais les paramètres, ou la liste des sources avec leurs URL) ; décision de Bob du 25/11/2026 : UTM et raccourcisseur pour les carrousels uniquement ;
+   - la légende Instagram (300 à 600 caractères, aucun hashtag : décision de Bob du 25/11/2026, valable sur tous les réseaux) ;
    - deux requêtes de recherche de photo en anglais pour Unsplash : « cover » (portrait, une personne ou une scène de travail réaliste, sans visage célèbre ni logo) et « groupe » (paysage, plusieurs personnes) ;
    - la liste numérotée des sources lues (auteur ou institution, titre, date, URL, nature) ;
    - un bloc Réserves (chiffres écartés et pourquoi, interprétations, points à faire valider par Bob).
