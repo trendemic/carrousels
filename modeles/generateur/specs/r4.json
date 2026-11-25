@@ -1,0 +1,87 @@
+{
+ "brand": "rebootlab",
+ "slug": "2026-12-11-reboot-lab-demarche-prospective",
+ "article": "https://www.reboot-lab.com/demarche-prospective/",
+ "title": "Prospective : décider lundi, quoi qu'il arrive",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Démarche prospective",
+   "title": "Décider lundi, quoi qu'il arrive",
+   "sub": "5 étapes d'atelier, 3 scénarios et un tri des décisions."
+  },
+  {
+   "type": "text",
+   "h2": "Votre comité de direction attend une prévision.",
+   "bottom": "La méthode refuse justement la prévision : [[elle organise l'incertitude en quelques futurs plausibles.]]"
+  },
+  {
+   "type": "rows",
+   "kicker": "Le déroulé",
+   "h2": "5 étapes en une journée",
+   "numbered": true,
+   "rows": [
+    "Cadrer la question : 30 minutes",
+    "Collecter : 45 minutes",
+    "Trier : 45 minutes",
+    "Écrire 3 scénarios : 60 minutes",
+    "Trier les décisions : 45 minutes"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Étape 1",
+   "h2": "Une question focale avec une décision réelle dedans",
+   "paras": [
+    "Investir, recruter, fermer ou ouvrir, avec un horizon chiffré en années.",
+    "Et un horizon qui dépasse votre plan stratégique [[d'au moins 2 ans.]]"
+   ]
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Tendance trop vague",
+   "h2": "« Numérique »",
+   "paras": [
+    "Devient : « nos clients comparent nos prix en ligne avant chaque rendez-vous ».",
+    "[[Une phrase avec un sujet, un verbe et une direction.]]"
+   ]
+  },
+  {
+   "type": "dark",
+   "kicker": "Une règle d'animation",
+   "h2": "Interdisez le scénario médian.",
+   "bottom": "Le groupe s'y réfugie dès qu'il en voit un, {{et la discussion stratégique s'arrête net.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "Le livrable",
+   "h2": "Chaque décision face aux 3 scénarios",
+   "rows": [
+    "Robuste dans les 3 : lancement immédiat",
+    "Conditionnelle dans 2 : mise en préparation",
+    "Valable dans 1 seul : un pari, lié à son signal"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Le participant qui sait déjà",
+   "h2": "Confiez-lui le scénario le plus éloigné de sa conviction.",
+   "paras": [
+    "Avec une consigne : [[le rendre crédible.]]"
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "La vraie question",
+   "h2": "Que faisons-nous lundi, quoi qu'il arrive ?",
+   "label": "L'article complet",
+   "domain": "reboot-lab.com",
+   "path": "/demarche-prospective"
+  }
+ ],
+ "post": "Les comités de direction jugent la prospective lente et abstraite. Ce reproche vise surtout la façon d'animer la séance.\n\nNous conduisons une démarche prospective en 5 étapes minutées, en une journée : cadrer la question et l'horizon, collecter les tendances, les trier par impact et incertitude, écrire 3 scénarios contrastés, puis trier les décisions. Une décision robuste dans les 3 scénarios part tout de suite. Une décision conditionnelle passe en préparation. Un pari attend le signal de son lancement.\n\nUne règle d'animation change tout : interdisez le scénario médian. Dès qu'un futur intermédiaire apparaît, le groupe le désigne comme le plus probable, et la séance retombe dans la prévision.\n\nEt protégez les 45 dernières minutes de la journée pour le tri des décisions, quitte à raccourcir l'écriture des scénarios.\n\nLe lien vers l'article est en commentaire.",
+ "short": "Une démarche prospective en 5 étapes et une journée, qui finit sur un tri des décisions : robustes, conditionnelles ou paris. Et sans scénario médian.",
+ "ig": "Votre comité de direction attend une prévision, et la prospective refuse justement la prévision. Notre démarche tient en 5 étapes minutées et une journée : cadrer, collecter, trier, écrire 3 scénarios puis trier les décisions face à ces scénarios. Une règle d'animation compte plus que les autres : interdisez le scénario médian. L'article complet : lien dans la bio."
+}

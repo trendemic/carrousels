@@ -1,0 +1,85 @@
+{
+ "brand": "glukoze",
+ "slug": "2026-12-07-glukoze-travail-prescrit",
+ "article": "https://glukoze.com/travail-prescrit-consignes-managers/",
+ "title": "Les consignes que personne ne retire",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Travail prescrit",
+   "title": "Les consignes que personne ne retire",
+   "sub": "Le stock que vos managers portent sans le dire."
+  },
+  {
+   "type": "text",
+   "h2": "Chaque consigne est valable, prise une à une.",
+   "bottom": "Le problème commence le jour où votre manager doit [[toutes les tenir dans la même semaine.]]"
+  },
+  {
+   "type": "tag",
+   "tone": "ok",
+   "tag": "Ce que chacun compte",
+   "h2": "Ses propres envois.",
+   "paras": [
+    "Chaque direction connaît le volume de ses diffusions de l'année.",
+    "RH, finance, qualité, transformation : [[chacune de bonne foi.]]"
+   ]
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Ce que personne ne compte",
+   "h2": "Ce qui reste en vigueur.",
+   "paras": [
+    "Le stock déposé chez le manager n'appartient à personne… et il grossit à chaque trimestre."
+   ]
+  },
+  {
+   "type": "dark",
+   "kicker": "Un nom pour ce stock",
+   "h2": "La charge d'injonction",
+   "bottom": "Le nombre de consignes managériales valides au même moment, sans procédure de retrait.\n{{Chez Glukoze, nous l'appelons ainsi.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "Avant diffusion",
+   "h2": "Quatre champs par consigne",
+   "numbered": true,
+   "rows": [
+    "La décision qu'elle permet de trancher",
+    "Le cas où elle cède devant une autre priorité",
+    "La preuve d'application",
+    "La date de retrait"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Le champ qui change tout",
+   "h2": "La date de retrait",
+   "paras": [
+    "Sans elle, une consigne survit par défaut.",
+    "Avec elle, [[son émetteur doit prouver son utilité.]]"
+   ],
+   "note": "Les obligations légales restent en vigueur. Une consigne sur le format des points d'équipe peut expirer sans dommage."
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Signal trompeur",
+   "h2": "Un manager qui ne se plaint de rien a sa propre règle de tri.",
+   "paras": [
+    "Et cette règle échappe entièrement à votre direction."
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "Avant votre prochain parcours",
+   "h2": "Pour chaque nouvelle exigence, une consigne retirée.",
+   "label": "L'article complet",
+   "domain": "glukoze.com",
+   "path": "/travail-prescrit-consignes-managers"
+  }
+ ],
+ "post": "Combien de consignes vos managers appliquent-ils en même temps cette semaine ? Aucune direction ne sait répondre, parce que chaque émetteur compte ce qu'il envoie et que personne ne compte ce qui reste en vigueur.\n\nLes ressources humaines, la finance, la qualité et les programmes de transformation diffusent chacun des consignes valables. Aucune procédure ne les retire, et le manager arbitre seul le jour où deux d'entre elles se percutent.\n\nChez Glukoze, nous appelons ce stock la charge d'injonction. Avant de lancer un parcours managérial, nous aidons nos clients à le compter, puis à confier à une personne identifiée le pouvoir de retirer des consignes. Chaque nouvelle exigence désigne alors la consigne retirée en échange.\n\nUne formation de plus ajoute une ligne au travail prescrit. Un pouvoir de retrait libère de la place pour les apprentissages de vos managers.\n\nLe lien vers l'article est en commentaire."
+}

@@ -1,0 +1,91 @@
+{
+ "brand": "glukoze",
+ "slug": "2026-11-30-glukoze-surcharge-cognitive",
+ "article": "https://glukoze.com/surcharge-cognitive-managers/",
+ "title": "Ce que vos managers gardent en tête",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Surcharge cognitive",
+   "title": "Ce que vos managers gardent en tête",
+   "sub": "Leur fatigue a une autre cause que le volume de travail."
+  },
+  {
+   "type": "text",
+   "h2": "Vos managers sont fatigués.",
+   "muted": "Le constat fait consensus.",
+   "bottom": "La cause tient moins au nombre de tâches [[qu'au nombre de sujets restés ouverts.]]"
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Boucle ouverte",
+   "h2": "Un sujet qu'il ne peut pas refermer seul.",
+   "paras": [
+    "Il attend une réponse, une validation ou l'arbitrage d'un autre.",
+    "Et pendant ce temps, [[il le garde en tête jusqu'au soir.]]"
+   ]
+  },
+  {
+   "type": "rows",
+   "kicker": "Les quatre familles",
+   "h2": "Ce qui reste suspendu",
+   "rows": [
+    "Les décisions en attente",
+    "Les consignes à concilier",
+    "Les sollicitations à traiter",
+    "Les situations d'équipe à suivre"
+   ],
+   "note": "Point commun : le manager ne peut refermer aucune de ces boucles de sa propre autorité."
+  },
+  {
+   "type": "dark",
+   "kicker": "Le paradoxe",
+   "h2": "Même charge de travail, fatigue différente.",
+   "bottom": "Le premier traite des dossiers qu'il peut clore seul.\nLe second porte des dossiers {{suspendus aux décisions des autres.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "Le relevé",
+   "h2": "Chaque soir, pendant deux semaines",
+   "numbered": true,
+   "rows": [
+    "Quels sujets attendent la réponse d'un autre ?",
+    "Qui a ouvert chacun d'eux ?",
+    "Depuis combien de jours restent-ils ouverts ?"
+   ],
+   "note": "Un ressenti devient une donnée de pilotage."
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Le piège",
+   "h2": "Mieux trier ne retire aucun sujet.",
+   "paras": [
+    "Un manager formé à prioriser, à qui personne ne retire rien, finit par se croire seul responsable de sa saturation."
+   ]
+  },
+  {
+   "type": "rows",
+   "kicker": "Cette semaine",
+   "h2": "Trois questions à poser à vos managers",
+   "numbered": true,
+   "rows": [
+    "Quelle décision attendez-vous de nous ?",
+    "Quels messages en copie pourriez-vous ignorer ?",
+    "Quelle décision votre équipe pourrait-elle prendre seule ?"
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "À trancher",
+   "h2": "Former vos managers à tenir… ou retirer des sujets ?",
+   "label": "L'article complet",
+   "domain": "glukoze.com",
+   "path": "/surcharge-cognitive-managers"
+  }
+ ],
+ "post": "Deux managers ont la même charge de travail. Le premier rentre chez lui l'esprit libre, et le second rumine encore au dîner.\n\nLa différence tient aux sujets qu'il ne peut pas refermer seul : une décision qui attend un arbitrage, deux consignes qui se contredisent, un recrutement qui traîne. Chaque boucle ouverte occupe une part de l'attention, et l'attention d'un manager ne grandit ni avec l'expérience ni avec la motivation.\n\nNous proposons à nos clients un relevé simple : pendant deux semaines, chaque manager note le soir les sujets qu'il garde en tête, qui les a ouverts et depuis combien de jours. Ce relevé fait apparaître la part de la charge qui vient de l'organisation elle-même.\n\nFormer un manager à mieux prioriser l'aide à tenir. Retirer des sujets réduit la charge à sa source.\n\nLe lien vers l'article est en commentaire.",
+ "comment_fr": true
+}

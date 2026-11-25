@@ -1,0 +1,87 @@
+{
+ "brand": "rebootlab",
+ "slug": "2026-12-04-reboot-lab-facilitateur",
+ "article": "https://www.reboot-lab.com/facilitateur/",
+ "title": "5 gestes pour tenir le rôle de facilitateur",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Facilitation",
+   "title": "5 gestes pour tenir le rôle",
+   "sub": "Et 3 interdits qui en fixent les limites."
+  },
+  {
+   "type": "text",
+   "h2": "Plus vous connaissez le sujet, plus vous risquez de confisquer la séance.",
+   "bottom": "Le manager expert et le consultant chevronné [[partagent la même pente.]]"
+  },
+  {
+   "type": "dark",
+   "kicker": "La séparation",
+   "h2": "Le processus pour vous, le contenu pour le groupe",
+   "bottom": "Ordre des étapes, taille des sous-groupes et durée des tours : {{ces décisions relèvent de votre rôle.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "Les 5 gestes",
+   "h2": "À observer en séance",
+   "numbered": true,
+   "rows": [
+    "Cadrer la question et le livrable",
+    "Distribuer la parole",
+    "Rendre visible ce qui se dit",
+    "Reformuler sans trancher",
+    "Faire converger vers une décision"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Geste 1",
+   "h2": "Une question en moins de 20 mots",
+   "paras": [
+    "« Parler de l'organisation » ne cadre rien.",
+    "« Choisir 3 changements à tester en janvier » [[donne une destination au groupe.]]"
+   ]
+  },
+  {
+   "type": "rows",
+   "kicker": "Les 3 interdits",
+   "h2": "Ce que vous ne faites jamais",
+   "rows": [
+    "Donner votre avis sur le fond",
+    "Décider à la place du groupe",
+    "Évaluer les personnes"
+   ],
+   "note": "Un « excellente idée ! » signale aux autres que leurs idées valaient moins."
+  },
+  {
+   "type": "text",
+   "kicker": "Si un participant demande votre avis",
+   "h2": "Gardez le cadre.",
+   "paras": [
+    "« Mon avis compte moins que le vôtre aujourd'hui. Qu'est-ce qui vous ferait pencher d'un côté ou de l'autre ? »"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "La veille de l'atelier",
+   "h2": "Faciliter, animer, former ou coacher ?",
+   "paras": [
+    "Notre test en 5 questions se passe en 5 minutes.",
+    "À 4 ou 5 points, [[faciliter est la bonne posture.]] À 2 points ou moins, la séance relève d'un autre format."
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "Le signe de réussite",
+   "h2": "Le groupe sort convaincu d'avoir trouvé seul.",
+   "label": "L'article complet",
+   "domain": "reboot-lab.com",
+   "path": "/facilitateur"
+  }
+ ],
+ "post": "Le facilitateur ne détient pas la bonne réponse à la place du groupe. Son rôle tient justement grâce à cette limite.\n\nNous résumons ce rôle en 5 gestes qu'un collègue peut observer depuis le fond de la salle : cadrer la question et le livrable, distribuer la parole, rendre visible ce qui se dit, reformuler sans trancher et faire converger vers une décision que le groupe assume. 3 interdits les protègent : pas d'avis sur le fond, aucune décision à la place du groupe et aucune évaluation des personnes.\n\nLa veille de votre prochain atelier, passez notre test en 5 questions pour choisir entre faciliter, animer, former ou coacher. Le lendemain, notez pour chaque geste une situation tenue et une situation lâchée.\n\nLe lien vers l'article est en commentaire.",
+ "short": "Un facilitateur décide du processus et laisse le contenu au groupe. 5 gestes observables et 3 interdits pour tenir ce rôle en atelier.",
+ "ig": "Plus vous connaissez le sujet, plus vous risquez de confisquer la séance. Nous résumons le rôle de facilitateur en 5 gestes : cadrer la question, distribuer la parole, rendre visible, reformuler sans trancher et faire converger vers une décision. Et 3 interdits : pas d'avis sur le fond, aucune décision à la place du groupe et aucune évaluation des personnes. L'article complet : lien dans la bio."
+}

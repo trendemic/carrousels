@@ -1,0 +1,84 @@
+{
+ "brand": "bcau",
+ "slug": "2026-12-03-benjaminchaminade-au-uncertainty-muscle",
+ "article": "https://benjaminchaminade.com.au/uncertainty-tolerance-leaders/",
+ "title": "Uncertainty is a muscle",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Leadership",
+   "title": "Uncertainty is a muscle",
+   "sub": "A capability you can train."
+  },
+  {
+   "type": "text",
+   "h2": "Everyone agrees uncertainty is here to stay.",
+   "bottom": "Leaders still have to decide, [[with less information and on a shorter clock.]]"
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Trap one",
+   "h2": "Dismiss the signal",
+   "paras": [
+    "Kenneth Olsen, then head of Digital Equipment Corporation, saw no reason for anyone to own a home computer.",
+    "[[The error felt reasonable at the time.]]"
+   ]
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Trap two",
+   "h2": "Dramatise it",
+   "paras": [
+    "A leader convinced nothing can be known drops analytical rigour and runs on instinct.",
+    "It feels decisive and performs badly."
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Principle one",
+   "h2": "Anchor yourself in what stays fixed",
+   "paras": [
+    "A business decision predicts the best outcome. A principled decision holds whatever the outcome.",
+    "When the pandemic wiped out Airbnb's forecast, [[Brian Chesky set out principles instead.]]"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Principle two",
+   "h2": "Build in order to learn",
+   "paras": [
+    "A meeting about an idea produces opinions. A meeting about an object produces evidence.",
+    "IDEO's working rule: [[never come to a meeting without a prototype.]]"
+   ]
+  },
+  {
+   "type": "dark",
+   "kicker": "Principle three",
+   "h2": "Row in the fog",
+   "bottom": "The frame you put on ambiguity, out loud and in front of your team, {{sets how the room thinks for the rest of the meeting.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "Before you fund anything",
+   "h2": "Find where the waiting sits",
+   "numbered": true,
+   "rows": [
+    "Same name behind every stalled decision: coach that person",
+    "Different names, same behaviour: train the team",
+    "Waiting on a rule: change the rule"
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "Over to you",
+   "h2": "Your last stalled decision: who was everyone waiting for?",
+   "label": "Full article",
+   "domain": "benjaminchaminade.com.au",
+   "path": "/uncertainty-tolerance-leaders"
+  }
+ ],
+ "post": "Leaders love to say they need more data before they decide. In my fog challenge workshop, people who insist on more information often make the same call once the clock forces them.\n\nUncertainty tolerance is a trainable capability rather than a personality trait, and I work on it through three principles. Anchor yourself in what stays fixed, so that principled decisions remain available when forecasts are worthless. Build in order to learn, because a prototype produces evidence where a plan produces opinions. Row in the fog, because the frame you put on ambiguity shapes how your team thinks.\n\nBefore funding training, coaching or hiring, look at your last three stalled decisions and write down who everyone was waiting for. Same name each time points to coaching. Same behaviour across different names points to training. A rule or an approval threshold points to changing the rule, which costs nothing.\n\nLink to the full article in the comments."
+}

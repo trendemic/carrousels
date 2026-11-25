@@ -1,0 +1,91 @@
+{
+ "brand": "rebootlab",
+ "slug": "2026-12-01-reboot-lab-brainstorming",
+ "article": "https://www.reboot-lab.com/brainstorming/",
+ "title": "La séance qui finit en tri",
+ "pages": [
+  {
+   "type": "cover",
+   "kicker": "Brainstorming",
+   "title": "La séance qui finit en tri",
+   "sub": "Un déroulé de 45 minutes pour sortir avec une décision."
+  },
+  {
+   "type": "text",
+   "h2": "Un brainstorming produit beaucoup d'idées.",
+   "muted": "Du moins sur le papier.",
+   "bottom": "Le risque connu : [[une séance qui se termine sur un mur de post-it et aucune décision.]]"
+  },
+  {
+   "type": "tag",
+   "tone": "ko",
+   "tag": "Le coupable",
+   "h2": "L'attente du tour de parole",
+   "paras": [
+    "Pendant qu'un participant parle, les autres retiennent leur idée, l'oublient ou la jugent dépassée.",
+    "Michael Diehl et Wolfgang Stroebe l'ont isolé sous le nom de [[blocage de production.]]"
+   ]
+  },
+  {
+   "type": "rows",
+   "kicker": "Le déroulé",
+   "h2": "45 minutes en 5 temps",
+   "numbered": true,
+   "rows": [
+    "Consigne : 5 minutes",
+    "Écriture individuelle : 10 minutes",
+    "Partage oral : 12 minutes",
+    "Regroupement : 8 minutes",
+    "Tri : 10 minutes"
+   ]
+  },
+  {
+   "type": "dark",
+   "kicker": "Le seuil",
+   "h2": "Un seuil de 8 idées par personne",
+   "bottom": "Annoncé avant la 1re idée, il rend visible {{l'arrêt au 1er ralentissement.}}",
+   "bar": false
+  },
+  {
+   "type": "rows",
+   "kicker": "La grille de tri",
+   "h2": "3 critères notés de 0 à 2",
+   "rows": [
+    "La réponse à la question posée",
+    "Un test possible en moins de 2 semaines",
+    "Un porteur volontaire"
+   ],
+   "note": "5 ou 6 points : l'idée part en test. 2 points ou moins : elle sort de la liste sans débat."
+  },
+  {
+   "type": "tag",
+   "tone": "ok",
+   "tag": "Le critère décisif",
+   "h2": "Le porteur",
+   "paras": [
+    "Une idée excellente sans porteur reste sur le mur.",
+    "Une idée moyenne portée par un volontaire [[produit un apprentissage en 2 semaines.]]"
+   ]
+  },
+  {
+   "type": "text",
+   "kicker": "Quand le groupe s'essouffle",
+   "h2": "Une carte au centre de la table",
+   "paras": [
+    "L'animateur tire une carte et demande 3 idées qui la relient à la question.",
+    "Nos decks Brandstorming, Moodstorming et Talentstorming [[comptent 64 cartes chacun.]]"
+   ]
+  },
+  {
+   "type": "end",
+   "kicker": "La mesure",
+   "h2": "Une séance se juge à la 1re idée testée.",
+   "label": "L'article complet",
+   "domain": "reboot-lab.com",
+   "path": "/brainstorming"
+  }
+ ],
+ "post": "Un brainstorming oral fait perdre des idées, et la cause tient à une mécanique simple : pendant qu'une personne parle, les autres attendent leur tour, et une partie de leurs idées disparaît avant d'atteindre le tableau. Michael Diehl et Wolfgang Stroebe ont appelé ce phénomène le blocage de production.\n\nNous gardons la méthode d'Alex Osborn et nous changeons son pilotage. Notre déroulé dure 45 minutes : 10 minutes d'écriture individuelle avant tout partage oral, un seuil de 8 idées par personne annoncé avant la 1re idée, puis une grille de tri à 3 critères notés de 0 à 2.\n\nLe critère qui fait la différence ? Le porteur. Une idée excellente sans volontaire reste sur le mur, alors qu'une idée moyenne portée par quelqu'un produit un apprentissage en 2 semaines.\n\nLe lien vers l'article est en commentaire.",
+ "short": "Un brainstorming oral fait perdre des idées : chacun attend son tour de parole. Notre déroulé de 45 minutes commence par l'écrit et finit sur une grille de tri.",
+ "ig": "Un brainstorming qui finit sur un mur de post-it et aucune décision ? Le blocage de production, décrit par Diehl et Stroebe, explique une partie du problème : pendant qu'une personne parle, les autres oublient leurs idées. Notre déroulé de 45 minutes commence par 10 minutes d'écriture individuelle, fixe un seuil de 8 idées par personne et se termine sur une grille de tri à 3 critères. L'article complet : lien dans la bio."
+}
