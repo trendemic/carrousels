@@ -1,0 +1,91 @@
+{
+ "kicker_couverture": "Charge de travail",
+ "titre_l1": "La charge baisse.\nLa saturation reste.",
+ "titre_l2": "Ouvrez l’agenda.",
+ "slides": [
+  {
+   "type": "stat",
+   "kicker": "Les chiffres",
+   "stat": "38 %",
+   "texte": "des salariés subissent au moins trois contraintes de rythme en 2024, contre 43 % en 2016.",
+   "gras": "Une première baisse depuis les années 1980.",
+   "source": "Dares Analyses n° 37, Évolutions des conditions de travail et des risques psychosociaux depuis 2016 (septembre 2026)"
+  },
+  {
+   "type": "stat",
+   "kicker": "Et pourtant",
+   "stat": "1 sur 4",
+   "texte": "Un salarié sur quatre juge manquer de temps pour faire correctement son travail.",
+   "gras": "Et un sur trois manque de collaborateurs.",
+   "source": "Dares Analyses n° 37 (septembre 2026, enquêtes 2016 et 2024-2025)"
+  },
+  {
+   "type": "couleur",
+   "kicker": "Le décalage",
+   "texte": "Rythme en baisse,\nmanque de temps stable :",
+   "accent": "une partie de la charge naît en amont, dans l’agenda du dirigeant."
+  },
+  {
+   "type": "stat",
+   "kicker": "Le rythme imposé",
+   "stat": "50 %",
+   "texte": "des salariés travaillent au rythme de demandes extérieures qui exigent une réponse immédiate.",
+   "gras": "Ils étaient 28 % en 1984.",
+   "source": "Dares Analyses n° 37 (septembre 2026), comparaison avec l’enquête Conditions de travail de 1984"
+  },
+  {
+   "type": "stat",
+   "kicker": "Les changements",
+   "stat": "6 sur 10",
+   "texte": "Quand leur environnement de travail change fortement, les salariés n’ont eu aucune consultation dans plus de six cas sur dix.",
+   "gras": "Et quatre sur dix jugent l’information reçue insuffisante.",
+   "source": "Dares Analyses n° 37 (septembre 2026, salariés dont l’environnement a fortement changé en douze mois)"
+  },
+  {
+   "type": "sombre",
+   "kicker": "Mon avis",
+   "texte": "Une question\nsans réponse reste\ndans l’équipe,\nsous forme de travail.",
+   "accent": "Trois hypothèses,\ntrois versions à produire."
+  },
+  {
+   "type": "texte",
+   "kicker": "Les trois charges",
+   "paragraphes": [
+    {
+     "texte": "Une décision qui tarde fabrique :\ndes hypothèses en parallèle,\ndu travail de couverture\n(traces, copies et validations)\net des sujets qui reviennent."
+    },
+    {
+     "texte": "",
+     "gras": "Aucune n’apparaît dans un plan de charge."
+    }
+   ]
+  },
+  {
+   "type": "photo",
+   "kicker": "Le test",
+   "texte": "Combien de décisions\nattendues de vous\nrestent ouvertes ?",
+   "accent": "Datez chacune au jour\nde la première question."
+  },
+  {
+   "type": "texte",
+   "kicker": "Le premier geste",
+   "paragraphes": [
+    {
+     "texte": "Reprenez vos six dernières semaines de messages et de réunions, puis relevez chaque question qui appelait votre arbitrage."
+    },
+    {
+     "texte": "",
+     "gras": "Rendez trois arbitrages anciens cette semaine.\nComptez ensuite les travaux abandonnés par l’équipe."
+    }
+   ]
+  }
+ ],
+ "fin": {
+  "kicker": "L’article complet",
+  "h2_a": "La charge baisse",
+  "h2_b": "dans l’agenda.",
+  "texte": "L’inventaire des questions ouvertes\nen cinq temps et les trois leviers\nselon votre équipe.",
+  "cta": "LIRE L’ARTICLE →",
+  "url_affichee": "BENJAMINCHAMINADE.COM/\nSURCHARGE-DE-TRAVAIL-DES-EQUIPES"
+ }
+}
