@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr"><head><meta charset="utf-8">
+<style>
+@font-face{font-family:Kompot;font-weight:400;src:url(../../modeles/benjaminchaminade/kompotsans-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:400;src:url(../../modeles/benjaminchaminade/mulish-regular-webfont.woff2) format('woff2')}
+@font-face{font-family:Mulish;font-weight:700;src:url(../../modeles/benjaminchaminade/mulish-bold-webfont.woff2) format('woff2')}
+:root{--ink:#333;--or:#ff6a00;--vi:#5353bc;--vf:#3e3e9a;--ja:#f7cf0b;--cy:#55dbde;--bg:#fbf9f5}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:#ccc}
+.page{width:1080px;height:1350px;position:relative;overflow:hidden;background-color:var(--bg);
+ background-image:linear-gradient(rgba(51,51,51,.055) 1px,transparent 1px),linear-gradient(90deg,rgba(51,51,51,.055) 1px,transparent 1px);
+ background-size:40px 40px;font-family:Mulish;color:var(--ink);margin-bottom:20px}
+.top{position:absolute;top:54px;left:64px;right:64px;display:flex;justify-content:space-between;align-items:center}
+.top img{height:46px}
+.mono{font-family:'Liberation Mono',monospace;font-weight:700;letter-spacing:.08em;text-transform:uppercase}
+.num{font-size:24px;color:#666}
+.tag{border:2.5px solid var(--or);color:var(--or);border-radius:10px;padding:6px 18px;font-size:30px;font-weight:700}
+h1{font-family:Kompot;font-weight:400;text-transform:uppercase;text-align:center;line-height:1.02;position:absolute;left:50px;right:50px}
+h1 .l1{display:block;color:var(--ink)}
+h1 .l2{display:block;color:var(--or)}
+.foot{position:absolute;bottom:48px;left:64px;right:64px;border-top:2px solid rgba(255,106,0,.55);padding-top:20px;text-align:center;font-size:22px;color:#555}
+.card{position:absolute;background:#fff;border-radius:22px;box-shadow:0 10px 34px rgba(51,51,51,.10);border:1.5px solid rgba(51,51,51,.08)}
+.pill{display:inline-block;border-radius:12px;padding:10px 18px;font-size:21px;background:#fff;border:2.5px solid var(--vi);color:var(--vf)}
+.sub{position:absolute;left:110px;right:110px;text-align:center;font-size:33px;line-height:1.35}
+b{font-weight:700}
+</style></head><body>
+
+<!-- 1. COUVERTURE -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="tag">→</span></div>
+ <h1 style="top:150px;font-size:96px"><span class="l1">Votre équipe regarde</span><span class="l2">→ le dernier échec.</span></h1>
+ <p class="sub" style="top:375px">Le droit à l'erreur se juge au sort de la dernière personne qui a échoué devant témoins.</p>
+ <svg style="position:absolute;left:0;top:0" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <g fill="none" stroke="#ff6a00" stroke-width="4" stroke-dasharray="2 12" stroke-linecap="round">
+   <path d="M540 820 L215 640"/><path d="M540 820 L865 640"/><path d="M540 820 L170 860"/>
+   <path d="M540 820 L910 860"/><path d="M540 820 L300 1080"/><path d="M540 820 L780 1080"/>
+  </g>
+  <g fill="#ff6a00"><circle cx="215" cy="640" r="7"/><circle cx="865" cy="640" r="7"/><circle cx="170" cy="860" r="7"/><circle cx="910" cy="860" r="7"/><circle cx="300" cy="1080" r="7"/><circle cx="780" cy="1080" r="7"/></g>
+  <circle cx="540" cy="820" r="118" fill="#fff" stroke="#ff6a00" stroke-width="5"/>
+  <circle cx="540" cy="790" r="34" fill="#333"/>
+  <path d="M478 872 q62 -70 124 0 v8 h-124z" fill="#333"/>
+  <path d="M600 735 l26 26 M626 735 l-26 26" stroke="#ff6a00" stroke-width="7" stroke-linecap="round"/>
+ </svg>
+ <div style="position:absolute;top:952px;left:0;right:0;text-align:center"><span class="mono" style="background:#fbf9f5;padding:6px 14px;font-size:22px;color:#ff6a00">Le porteur de l'échec</span></div>
+ <span class="pill mono" style="position:absolute;left:95px;top:580px">Budget</span>
+ <span class="pill mono" style="position:absolute;left:775px;top:580px">Périmètre</span>
+ <span class="pill mono" style="position:absolute;left:60px;top:880px">Visibilité</span>
+ <span class="pill mono" style="position:absolute;left:830px;top:880px">Comités</span>
+ <span class="pill mono" style="position:absolute;left:160px;top:1098px">Arbitrages</span>
+ <span class="pill mono" style="position:absolute;left:630px;top:1098px">Projet suivant</span>
+ <div class="foot mono">Droit à l'erreur · le test du précédent</div>
+</section>
+
+<!-- 2. ERREUR / ECHEC -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="mono num">02 / 06</span></div>
+ <h1 style="top:150px;font-size:88px"><span class="l1">Erreur et échec</span><span class="l2">deux objets distincts.</span></h1>
+ <div class="card" style="left:64px;top:400px;width:462px;height:590px;padding:36px 34px">
+  <div class="mono" style="display:inline-block;background:#5353bc;color:#fff;border-radius:10px;padding:10px 20px;font-size:26px">L'erreur</div>
+  <div style="margin-top:30px;font-size:27px;line-height:1.32">
+   <div class="mono" style="font-size:19px;color:#5353bc">Définition</div><p style="margin:6px 0 22px">Un écart à une norme&nbsp;connue</p>
+   <div class="mono" style="font-size:19px;color:#5353bc">Nature</div><p style="margin:6px 0 22px">Involontaire et ponctuelle</p>
+   <div class="mono" style="font-size:19px;color:#5353bc">Réponse</div><p style="margin:6px 0 22px">Formation, relecture ou&nbsp;contrôle</p>
+   <div class="mono" style="font-size:19px;color:#5353bc">Relève de</div><p style="margin:6px 0 0">La qualité de l'exécution</p>
+  </div>
+ </div>
+ <div class="card" style="left:554px;top:400px;width:462px;height:590px;padding:36px 34px;border:3px solid #ff6a00">
+  <div class="mono" style="display:inline-block;background:#ff6a00;color:#fff;border-radius:10px;padding:10px 20px;font-size:26px">L'échec</div>
+  <div style="margin-top:30px;font-size:27px;line-height:1.32">
+   <div class="mono" style="font-size:19px;color:#ff6a00">Définition</div><p style="margin:6px 0 22px">Une tentative qui manque son&nbsp;objectif</p>
+   <div class="mono" style="font-size:19px;color:#ff6a00">Terrain</div><p style="margin:6px 0 22px">Une hypothèse jamais testée</p>
+   <div class="mono" style="font-size:19px;color:#ff6a00">Produit</div><p style="margin:6px 0 22px">Une information introuvable&nbsp;autrement</p>
+   <div class="mono" style="font-size:19px;color:#ff6a00">Relève de</div><p style="margin:6px 0 0">L'exploration</p>
+  </div>
+ </div>
+ <p class="sub" style="top:1040px;font-size:34px"><b>Le droit à l'erreur protège le premier.</b><br>La créativité demande le second.</p>
+ <div class="foot mono">Le discours confond les deux</div>
+</section>
+
+<!-- 3. DOUZE MOIS -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="mono num">03 / 06</span></div>
+ <h1 style="top:150px;font-size:96px"><span class="l1">Douze mois</span><span class="l2">après l'échec.</span></h1>
+ <p class="sub" style="top:375px;font-size:31px">Une promesse coûte une phrase.<br><b>Un précédent coûte une décision réelle.</b></p>
+ <div class="card" style="left:64px;top:500px;width:952px;height:480px;padding:30px 32px">
+  <div style="display:flex;justify-content:space-between;align-items:center">
+   <div style="font-family:Kompot;font-size:40px;text-transform:uppercase">Le porteur mois par mois</div>
+   <div class="mono" style="background:#ff6a00;color:#fff;border-radius:30px;padding:8px 20px;font-size:18px">L'équipe : en observation ●</div>
+  </div>
+  <div style="display:grid;grid-template-columns:repeat(6,1fr);gap:0;margin-top:24px;border:1.5px solid #e6e1d8;border-radius:12px;overflow:hidden">
+   <!-- 12 cells -->
+   <div class="cell"><span>M0</span><i class="chip f">Échec visible</i></div>
+   <div class="cell"><span>M+1</span></div>
+   <div class="cell"><span>M+2</span><i class="chip">Budget&nbsp;?</i></div>
+   <div class="cell"><span>M+3</span></div>
+   <div class="cell"><span>M+4</span><i class="chip">Comités&nbsp;?</i></div>
+   <div class="cell"><span>M+5</span></div>
+   <div class="cell"><span>M+6</span><i class="chip o">Nouveau projet&nbsp;?</i></div>
+   <div class="cell"><span>M+7</span></div>
+   <div class="cell"><span>M+8</span><i class="chip">Périmètre&nbsp;?</i></div>
+   <div class="cell"><span>M+9</span></div>
+   <div class="cell"><span>M+10</span><i class="chip">Visibilité&nbsp;?</i></div>
+   <div class="cell"><span>M+12</span><i class="chip f">Le verdict</i></div>
+  </div>
+ </div>
+ <style>
+  .cell{height:170px;border-right:1.5px solid #e6e1d8;border-bottom:1.5px solid #e6e1d8;padding:12px 10px;font-family:'Liberation Mono',monospace;font-weight:700;font-size:18px;color:#888;position:relative}
+  .cell:nth-child(6n){border-right:none}.cell:nth-child(n+7){border-bottom:none}
+  .chip{display:block;margin-top:16px;font-style:normal;border:2.5px solid #5353bc;color:#3e3e9a;border-radius:10px;padding:10px 8px;text-align:center;text-transform:uppercase;font-size:15px;letter-spacing:.02em;line-height:1.25;padding:10px 4px}
+  .chip.o{border-color:#ff6a00;color:#ff6a00}
+  .chip.f{background:#ff6a00;border-color:#ff6a00;color:#fff;font-family:Kompot;font-weight:400;font-size:23px;letter-spacing:0}
+ </style>
+ <div style="position:absolute;top:1050px;left:64px;right:64px;display:flex;gap:24px">
+  <div class="card" style="position:relative;flex:1;padding:22px;text-align:center"><div style="font-family:Kompot;font-size:42px;text-transform:uppercase">Budget</div><div class="mono" style="font-size:17px;color:#666;margin-top:6px">Confié après l'échec</div></div>
+  <div class="card" style="position:relative;flex:1;padding:22px;text-align:center"><div style="font-family:Kompot;font-size:42px;text-transform:uppercase">Comités</div><div class="mono" style="font-size:17px;color:#666;margin-top:6px">Où il reste invité</div></div>
+  <div class="card" style="position:relative;flex:1;padding:22px;text-align:center"><div style="font-family:Kompot;font-size:42px;text-transform:uppercase">Risque</div><div class="mono" style="font-size:17px;color:#666;margin-top:6px">Du projet suivant</div></div>
+ </div>
+ <div class="foot mono">Trois indices, lisibles sans aucun outil</div>
+</section>
+
+<!-- 4. CINQ ETAPES -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="mono num">04 / 06</span></div>
+ <h1 style="top:150px;font-size:88px"><span class="l1">Établir le précédent</span><span class="l2">en cinq étapes.</span></h1>
+ <svg style="position:absolute;left:0;top:0" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <g fill="none" stroke="#ff6a00" stroke-width="4" stroke-dasharray="2 12" stroke-linecap="round">
+   <path d="M75 470 Q60 425 100 405"/>
+   <path d="M350 600 H395"/><path d="M685 600 H730"/>
+   <path d="M1020 600 Q1055 600 1055 720 Q1055 830 880 900"/>
+   <path d="M590 965 H540"/>
+  </g>
+  <path d="M92 380 l0 40 M72 400 l40 0 M78 386 l28 28 M106 386 l-28 28" stroke="#ff6a00" stroke-width="6" stroke-linecap="round"/>
+ </svg>
+ <div class="step" style="left:60px;top:470px"><div class="n">1</div><p>Choisir un échec récent, connu de&nbsp;tous</p></div>
+ <div class="step" style="left:395px;top:470px"><div class="n">2</div><p>Le documenter en une page</p></div>
+ <div class="step" style="left:730px;top:470px"><div class="n">3</div><p>Le dirigeant porte la restitution</p></div>
+ <div class="step hot" style="left:590px;top:830px"><div class="mono bascule">Point de bascule</div><div class="n">4</div><p>Un projet équivalent au porteur sous six&nbsp;mois</p></div>
+ <div class="step" style="left:250px;top:830px"><div class="n">5</div><p>Dater, puis compter les propositions risquées à douze&nbsp;mois</p></div>
+ <style>
+  .step{position:absolute;width:290px;height:270px;background:#fff;border-radius:22px;box-shadow:0 10px 30px rgba(51,51,51,.10);border:1.5px solid rgba(51,51,51,.08);padding:24px 24px;text-align:center}
+  .step .n{font-family:Kompot;font-size:78px;line-height:1;color:#5353bc}
+  .step p{font-size:24px;line-height:1.28;margin-top:12px;font-weight:700}
+  .step.hot{border:3px solid #ff6a00}.step.hot .n{color:#ff6a00}
+  .bascule{position:absolute;top:-22px;left:50%;transform:translateX(-50%);white-space:nowrap;background:#ff6a00;color:#fff;border-radius:30px;padding:7px 16px;font-size:16px}
+ </style>
+ <p class="sub" style="top:1135px;font-size:30px"><b>Un échec réel, choisi dans l'histoire récente.</b><br>Jamais un cas mis en scène.</p>
+ <div class="foot mono">Une séquence sur un trimestre</div>
+</section>
+
+<!-- 5. DECORATIF -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="mono num">05 / 06</span></div>
+ <h1 style="top:150px;font-size:96px"><span class="l1">Votre dispositif</span><span class="l2">est-il décoratif&nbsp;?</span></h1>
+ <div class="card" style="left:64px;top:400px;width:952px;height:690px;padding:34px 40px">
+  <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:10px">
+   <div style="font-family:Kompot;font-size:40px;text-transform:uppercase">Quatre signaux</div>
+   <div class="mono" style="font-size:18px;color:#888">Repérables en trois réunions</div>
+  </div>
+  <div class="sig"><span class="box"></span><div><div class="mono k">Signal 01</div><p>Les échecs partagés datent d'anciens projets ou de personnes parties.</p></div></div>
+  <div class="sig"><span class="box"></span><div><div class="mono k">Signal 02</div><p>Chaque cas présenté se termine par un succès final.</p></div></div>
+  <div class="sig"><span class="box"></span><div><div class="mono k">Signal 03</div><p>Aucun membre du comité de direction ne présente son propre&nbsp;échec.</p></div></div>
+  <div class="sig" style="border:none"><span class="box"></span><div><div class="mono k">Signal 04</div><p>La séance ne débouche sur aucune décision.</p></div></div>
+ </div>
+ <style>
+  .sig{display:flex;gap:28px;align-items:flex-start;padding:26px 0;border-bottom:1.5px dashed rgba(255,106,0,.5)}
+  .box{flex:0 0 46px;height:46px;border:3.5px solid #ff6a00;border-radius:10px;margin-top:4px}
+  .sig .k{font-size:18px;color:#ff6a00}
+  .sig p{font-size:29px;line-height:1.3;margin-top:6px}
+ </style>
+ <p class="sub" style="top:1125px;font-size:31px"><b>Une seule racine&nbsp;:</b><br>célébrer l'échec sans jamais en payer le prix.</p>
+ <div class="foot mono">@benjchaminade</div>
+</section>
+
+<!-- 6. CHUTE -->
+<section class="page">
+ <div class="top"><img src="../../modeles/benjaminchaminade/logo-benjamin-chaminade.svg" alt=""><span class="mono num">06 / 06</span></div>
+ <div style="position:absolute;top:175px;left:0;right:0;text-align:center;font-family:Kompot;font-size:130px;line-height:1;text-transform:uppercase">Regardez</div>
+ <div style="position:absolute;top:330px;left:64px;right:64px;background:#ff6a00;border-radius:26px;padding:30px 20px 24px;text-align:center;font-family:Kompot;font-size:112px;line-height:1;color:#fbf9f5;text-transform:uppercase;box-shadow:0 12px 30px rgba(255,106,0,.25)">Votre dernier<br>échec visible</div>
+ <p class="sub" style="top:640px;font-size:36px"><b>Et le sort de son porteur.</b><br>Vous saurez ce que vaut votre droit à l'erreur.</p>
+ <div class="mono" style="position:absolute;top:800px;left:50%;transform:translateX(-50%);border:3px solid #ff6a00;color:#ff6a00;border-radius:16px;padding:16px 34px;font-size:26px;white-space:nowrap">L'article complet →</div>
+ <div style="position:absolute;top:895px;left:0;right:0;text-align:center">
+  <div style="font-family:Kompot;font-size:54px;text-transform:uppercase;color:#3e3e9a">benjaminchaminade.com</div>
+  <div class="mono" style="font-size:22px;color:#666;margin-top:4px;text-transform:none">/peur-de-lechec-entreprise</div>
+ </div>
+ <svg style="position:absolute;left:0;top:0" width="1080" height="1350" viewBox="0 0 1080 1350">
+  <g fill="none" stroke="#ff6a00" stroke-width="3.5" stroke-dasharray="2 11" stroke-linecap="round">
+   <path d="M540 1030 L140 1150"/><path d="M540 1030 L340 1150"/><path d="M540 1030 L540 1150"/><path d="M540 1030 L740 1150"/><path d="M540 1030 L940 1150"/>
+  </g>
+  <circle cx="540" cy="1030" r="9" fill="#ff6a00"/>
+ </svg>
+ <div style="position:absolute;top:1160px;left:40px;right:40px;display:flex;justify-content:space-between">
+  <span class="pill mono" style="font-size:17px;padding:10px 12px">Budget</span>
+  <span class="pill mono" style="font-size:17px;padding:10px 12px">Périmètre</span>
+  <span class="pill mono" style="font-size:17px;padding:10px 12px">Visibilité</span>
+  <span class="pill mono" style="font-size:17px;padding:10px 12px">Comités</span>
+  <span class="pill mono" style="font-size:17px;padding:10px 12px">Projet suivant</span>
+ </div>
+ <div class="foot mono" style="border:none">@benjchaminade</div>
+</section>
+</body></html>
